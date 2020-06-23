@@ -14,6 +14,16 @@ class AllPrimitives extends Object {
   static char bill = 89;
   static char unknown = 8989;
 
+
+  public static boolean var1;
+  public static byte var2;
+  public static short var3;
+  public static int var4;
+  public static long var5;
+  public static float var6;
+  public static double var7;
+  public static char var8;
+
   public AllPrimitives() {
     super();
   }
@@ -21,8 +31,8 @@ class AllPrimitives extends Object {
 
   public static void main(String[] args) {
 
-    int var1 = 7;
-    System.out.println(var1);
+    int var0 = 7;
+    System.out.println(var0);
     System.out.println();
     System.out.println();
 
@@ -38,9 +48,33 @@ class AllPrimitives extends Object {
     System.out.println(AllPrimitives.ryan);
     System.out.println(bill);
 
+    System.out.println();
+    System.out.println();
+
 
     AllPrimitives instance = new AllPrimitives();
     System.out.println(instance.unknown);
+
+
+    System.out.println();
+    System.out.println();
+
+
+
+
+    AllPrimitives instance2 = new AllPrimitives();
+    System.out.println(instance2);
+    System.out.println();
+    System.out.println();
+    System.out.println(var1);
+    System.out.println(var2);
+    System.out.println(var3);
+    System.out.println(var4);
+    System.out.println(var5);
+    System.out.println(var6);
+    System.out.println(var7);
+    System.out.println(var8);
+
   }
 
 }
