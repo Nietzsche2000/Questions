@@ -63,6 +63,7 @@ class AllPrimitives extends Object {
 
 
     AllPrimitives instance2 = new AllPrimitives();
+    AllPrimitives instance3;
     System.out.println(instance2);
     System.out.println();
     System.out.println();
