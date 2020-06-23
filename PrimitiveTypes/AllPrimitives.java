@@ -1,7 +1,7 @@
 class AllPrimitives extends Object {
 
 
-  static boolean the = true;
+  public static boolean the = true;
   static boolean dog = false;
   static byte is = 127;
   static short running = 10;
@@ -20,6 +20,11 @@ class AllPrimitives extends Object {
 
 
   public static void main(String[] args) {
+
+    int var1 = 7;
+    System.out.println(var1);
+    System.out.println();
+    System.out.println();
 
     System.out.println(AllPrimitives.the);
     System.out.println(AllPrimitives.dog);
