@@ -1,0 +1,1 @@
+1. int z = x < y ? x: y; //--> why is this operator right to left.
