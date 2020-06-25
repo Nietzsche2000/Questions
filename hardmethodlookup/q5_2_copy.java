@@ -55,16 +55,16 @@ public class q5_2_copy {
     public static void main(String[] args) {
         A e = new B();
         A f = new C();
-        B g = new A();
-        B h = new C();
-        C i = (C) new A();
-        B j = (A) new C();
+        //B g = new A();
+        //B h = new C();
+        //C i = (C) new A();
+        //B j = (A) new C();
         B k = (B) e;
 
         f.x();
         e.x();
-        e.y();
-        (B) e.y();
+        //e.y();
+        //(B) e.y();
         ((B) e).y();
         e.y(e);
         e.y(f);
@@ -74,7 +74,7 @@ public class q5_2_copy {
 //      Output:
         ((B) e).y(e);
         ((B) e).y((B) e);
-        ((B) e).y((C) e);
+        //((B) e).y((C) e);
     }
 
 

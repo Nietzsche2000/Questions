@@ -1,4 +1,6 @@
-public class q5_2_copy {
+import java.util.ArrayList;
+
+public class q5_2_copy2 {
 
 /*    Compile Time:
     1. Declare Static Type
@@ -13,6 +15,13 @@ public class q5_2_copy {
 
      Note: Always choose the most **specific function possible!
         */
+    public static void meth() {
+        ArrayList<ArrayList<Integer>> dd = new ArrayList<>(10);
+        for (int i = 5; i < 5; i++) {
+            //dd.add(new ArrayList<>());
+            dd.set(i, new ArrayList<>());
+        }
+    }
 
     public static class A {
         public void x() {
@@ -61,13 +70,13 @@ public class q5_2_copy {
 //        B j = (A) new C(); Compile Error
         B k = (B) e;
 
-        f.x();
-        e.x();
+        f.x(); //Cx
+        e.x(); //Ax
 //        e.y();      Compile Error
 //        (B) e.y();  Compile Error
-        ((B) e).y();
-        e.y(e);
-        e.y(f);
+        ((B) e).y(); //By
+        e.y(e); //Ay
+        e.y(f); //Ay
         System.out.println("------");
 
 //      Extra Challenge
