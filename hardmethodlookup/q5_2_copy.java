@@ -19,7 +19,7 @@ public class q5_2_copy {
             System.out.println("Ax");
         }
 
-        public void y(A z) {
+        public void y(B z) {
             System.out.println("Ay");
         }
     }
@@ -29,9 +29,13 @@ public class q5_2_copy {
             System.out.println("By");
         }
 
-        public void y(B z) {
-            System.out.println("Byz");
+        public void y(A x) {
+            System.out.println("Bx");
         }
+
+        // public void y(B z) {
+        //     System.out.println("Byz");
+        // }
 
         public void y(C z2) {
             System.out.println("Czz");
@@ -53,28 +57,28 @@ public class q5_2_copy {
     }
 
     public static void main(String[] args) {
-        A e = new B();
-        A f = new C();
-        B g = new A();
-        B h = new C();
-        C i = (C) new A();
-        B j = (A) new C();
-        B k = (B) e;
+        A e = new B(); //--> VALID
+        // A f = new C(); //--> VALID
+        // B g = new A(); --> Error CTE
+        // B h = new C(); --> Error CTE
+        // C i = (C) new A(); --> Error RTE
+        // B j = (A) new C(); --> Error CTE
+        // B k = (B) e; //--> VALID FOR CT AND RT
 
-        f.x();
-        e.x();
-        e.y();
-        (B) e.y();
-        ((B) e).y();
-        e.y(e);
-        e.y(f);
-        System.out.println("------");
+        // f.x(); //--> "CX"
+        // e.x(); //--> "AX"
+        // // e.y(); --> CTE
+        // // (B) e.y(); --> CTE
+        // ((B) e).y(); // --> "BY"
+        // e.y(e); //--> "AY"
+        // e.y(f); //--> "AY"
+        // System.out.println("------");
 
 //      Extra Challenge
 //      Output:
-        ((B) e).y(e);
-        ((B) e).y((B) e);
-        ((B) e).y((C) e);
+        // ((A) e).y(e); //--> "AY"
+        ((B) e).y((B) e); //--> "BYZ"
+        // ((B) e).y((C) e); //--> RTE
     }
 
 
