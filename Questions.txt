@@ -1,1 +1,2 @@
 1. int z = x < y ? x: y; //--> why is this operator right to left.
+2. review how to make 2D arrays and kD arrays
