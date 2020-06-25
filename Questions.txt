@@ -1,2 +1,7 @@
 1. int z = x < y ? x: y; //--> why is this operator right to left.
 2. review how to make 2D arrays and kD arrays
+3. Intellij no Directories: How to create a directory and not a package.
+4. Intellij running just one particular file rather than the entire folder.
+5. Questions on array and their class. Are they primitive, reference? Are they objects?
+6. Are all reference types objects? Is null a primitive type or a reference type?
+7. 
