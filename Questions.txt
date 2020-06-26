@@ -7,3 +7,4 @@
 7. Overriding and Overloading method and non-static lookup with multiple extended classes and casting.  
 8. Is void a primitive type? Explore void? is it a class?
 9. Inner class definitions, static inner classes, non-static classes instantiation. 
+10. Is it possible to test console output using JUnit --> System.out.print().
