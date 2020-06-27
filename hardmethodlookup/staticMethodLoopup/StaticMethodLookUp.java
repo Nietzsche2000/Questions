@@ -54,10 +54,10 @@ public class StaticMethodLookUp{
 		A aa = new A();
 		A ab = new B();
 		A ac = new C();
-		A aac = (C) new A();
+		// A aac = (C) new A();
 		// aa.methodA((A) ac);
-		// ac.methodA((A) ac);
-		aac.methodA(aac);
+		//ac.methodA((A) ac);
+		// aac.methodA(aac);
 		// ab.methodB(ab);
 		// aa.methodA(ab);
 	}

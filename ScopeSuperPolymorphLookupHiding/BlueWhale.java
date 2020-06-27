@@ -34,14 +34,15 @@ public class BlueWhale extends BigFish {
     }
 
     public static void main(String[] args) {
-//        BlueWhale blueTheWhale = new BlueWhale();
-//        blueTheWhale.swimFast();
-//        BlueWhale bb = new BlueWhale(1, "green", "Que");
-//        bb.swimFast();
+       // BlueWhale blueTheWhale = new BlueWhale();
+       // blueTheWhale.swimFast();
+       // System.out.println(blueTheWhale.color);
+       // BlueWhale bb = new BlueWhale(1, "green", "Que");
+       // bb.swimFast();
 //        BigFish bubble = (BigFish) new BlueWhale();
         BigFish fish1 = new BigFish();
         BlueWhale fish2 = new BlueWhale();
-        BigFish fish3 = new BlueWhale();
+        // BigFish fish3 = new BlueWhale();
 
         fish2.gainWeight(fish1);
     }
