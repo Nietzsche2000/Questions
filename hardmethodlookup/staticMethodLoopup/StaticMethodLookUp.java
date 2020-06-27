@@ -3,16 +3,16 @@ public class StaticMethodLookUp{
 	public static class A{
 
 		public static void methodA(A x){
-			System.out.println("In class A.");
+			System.out.println("In class A of input type A.");
 		}
-		public static void methodC(C x){
-			System.out.println("In class A.");
+		public static void methodA(C x){
+			System.out.println("In class A of input type C");
 		}
 		public static void methodB(A x){
-			System.out.println("In class A.");
+			System.out.println("In class A of input type A.");
 		}
 		public static void methodC(B x){
-			System.out.println("In class A.");
+			System.out.println("In class A of input type B.");
 		}
 	}
 
@@ -45,8 +45,8 @@ public class StaticMethodLookUp{
 			System.out.println("In class B, taking parameter B type x");
 		}
 
-		public static void methodA(B x){
-			System.out.println("In class B, taking parameter B type x");
+		public static void methodA(A x){
+			System.out.println("In class C of input type A.");
 		}
 	}
 
@@ -54,8 +54,11 @@ public class StaticMethodLookUp{
 		A aa = new A();
 		A ab = new B();
 		A ac = new C();
-		aa.methodA((A) C);
-		ab.methodB(B);
-		aa.methodA(B);
+		A aac = (C) new A();
+		// aa.methodA((A) ac);
+		// ac.methodA((A) ac);
+		aac.methodA(aac);
+		// ab.methodB(ab);
+		// aa.methodA(ab);
 	}
 }

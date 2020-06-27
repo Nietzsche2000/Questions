@@ -44,7 +44,7 @@ public class q5_2_copy {
     }
 
 
-    public static class C extends B {
+    public static class C extends A {
         public void x() {
             System.out.println("Cx");
         }
@@ -86,7 +86,9 @@ public class q5_2_copy {
         //((B) e).y((C) e);
 =======
         // A e = new B(); //--> VALID
-        A e = new C(); 
+        // A e = new C(); 
+        // B f = (B) new C(); //--> CTE
+        A f = (B) new A(); //--> RTE
         // A f = new C(); //--> VALID
         // B g = new A(); --> Error CTE
         // B h = new C(); --> Error CTE
@@ -107,7 +109,7 @@ public class q5_2_copy {
 //      Output:
         // ((A) e).y(e); //--> "AY"
         // ((B) e).y((B) e); //--> "BYZ"
-        ((C) e).y((B) e); 
+        // ((C) e).y((B) e); 
         // ((B) e).y((C) e); //--> RTE
 >>>>>>> 04ac3a99292dded7d53576851a2c39600974240a
     }
