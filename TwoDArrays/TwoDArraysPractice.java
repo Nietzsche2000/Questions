@@ -12,6 +12,7 @@ public class TwoDArraysPractice<T>{
 		items = new Function<T>[row][column];
 	}
 
+	/** Add data based on the Function */
 	public void addData(Function<T> start){
 		Function<T> c = start;
 		for(int i = 0; i < row; i++){
@@ -22,6 +23,8 @@ public class TwoDArraysPractice<T>{
 		}
 	}
 
+
+	/** Driver Main method for TwoDArrays */
 	public static void main(String[] args) {
 		TwoDArraysPractice<Integer> TD = new TwoDArraysPractice<>(5, 5);
 		TD.addData(new Function<>(1));
