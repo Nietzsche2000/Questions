@@ -3,3 +3,4 @@
 9. Inner class definitions, static inner classes, non-static classes instantiation. 
 10. Is it possible to test console output using JUnit? --> System.out.print().
 11. Is super the reference to the super instance that gets created when the instance is constructed?
+12. In static method lookup, during runtime, the method will be run that was selected in static lookup during compile time?
