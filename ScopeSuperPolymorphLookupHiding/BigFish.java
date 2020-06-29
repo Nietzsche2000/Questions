@@ -62,6 +62,7 @@ public class BigFish extends Object {
 
     public static void main(String[] args) {
         BigFish newFish = new BigFish();
-        newFish.swimFast();
+        // newFish.swimFast();
+        newFish.gainWeight(newFish);
     }
 }

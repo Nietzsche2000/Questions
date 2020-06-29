@@ -1,64 +1,33 @@
 public class StaticMethodLookUp{
 
 	public static class A{
+		public int x = 5;
 
-		public static void methodA(A x){
-			System.out.println("In class A of input type A.");
+		public static void methodA(){
+			System.out.println("I'm in class A, methodA-no arguments.");
 		}
-		public static void methodA(C x){
-			System.out.println("In class A of input type C");
-		}
-		public static void methodB(A x){
-			System.out.println("In class A of input type A.");
-		}
-		public static void methodC(B x){
-			System.out.println("In class A of input type B.");
+
+		public static void methodA(B x){
+			System.out.println("I'm in class A, methodA-single argument of type A.");
 		}
 	}
+
 
 	public static class B extends A{
 
-		public static void methodB(C x){
-			System.out.println("In class B.");
+		public static void methodB(){
+			System.out.println("I'm in class B, methodB-no arguments.");
 		}
 
 		public static void methodA(A x){
-			System.out.println("In class B, taking parameter A type x");
-		}
-
-		public static void methodB(B x){
-			System.out.println("In class B, taking parameter B type x");
-		}
-	}
-
-	public static class C extends A{
-
-		public static void methodC(){
-			System.out.println("In class B.");
-		}
-
-		public static void methodC(A x){
-			System.out.println("In class B, taking parameter A type x");
-		}
-
-		public static void methodB(B x){
-			System.out.println("In class B, taking parameter B type x");
-		}
-
-		public static void methodA(A x){
-			System.out.println("In class C of input type A.");
+			System.out.println("I'm in class B, methodA-single argument of type A.");
 		}
 	}
 
 	public static void main(String[] args) {
-		A aa = new A();
+		A a = new A();
+		B b = new B();
 		A ab = new B();
-		A ac = new C();
-		A aac = (C) new A();
-		// aa.methodA((A) ac);
-		// ac.methodA((A) ac);
-		aac.methodA(aac);
-		// ab.methodB(ab);
-		// aa.methodA(ab);
+		b.methodA(b);
 	}
 }
