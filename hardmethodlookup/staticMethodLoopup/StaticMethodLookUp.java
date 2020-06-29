@@ -7,8 +7,8 @@ public class StaticMethodLookUp{
 			System.out.println("I'm in class A, methodA-no arguments.");
 		}
 
-		public static void methodA(B x){
-			System.out.println("I'm in class A, methodA-single argument of type A.");
+		public static void methodA(A x){
+			System.out.println("I'm in class A, methodA-single argument of type B.");
 		}
 	}
 

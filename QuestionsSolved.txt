@@ -4,3 +4,11 @@
 4. Intellij running just one particular file rather than the entire folder. --> Comment out. 
 5. Questions on array and their class. Are they primitive, reference? Are they objects?--> Something inbetween.
 6. Are all reference types objects? Is null a primitive type or a reference type?--> treat it as a Primitive type.
+7. Overriding and Overloading method and non-static lookup with multiple extended classes and casting.  
+8. Is void a primitive type? Explore void? is it a class? --> Class.getPrimitive("void").
+10. Is it possible to test console output using JUnit? --> System.out.print(). --> return String then print in the end. System.setOut(); Write another method that returns the string that would be used to print in the particular function.
+11. Is super the reference to the super instance that gets created when the instance is constructed? --> No idea. 
+12. In static method lookup, during runtime, the method will be run that was selected in static lookup during compile time? --> Look at static type, find the method, go up and find better method with better parameter if not present in the called static class.
+14. Covariant question: how to instantiate line 32? --> Array.newInstance(QuestionArray.test.class, size)
+15. How to add data from one branch to another on git?  --> checkout branch.
+16. Final classes: cannot be extended.
