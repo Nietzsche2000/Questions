@@ -61,57 +61,57 @@ public class q5_2_copy {
     }
 
     public static void main(String[] args) {
-<<<<<<< HEAD
-        A e = new B();
-        A f = new C();
-        //B g = new A();
-        //B h = new C();
-        //C i = (C) new A();
-        //B j = (A) new C();
-        B k = (B) e;
 
-        f.x();
-        e.x();
-        //e.y();
-        //(B) e.y();
-        ((B) e).y();
-        e.y(e);
-        e.y(f);
-        System.out.println("------");
+//        A e = new B();
+//        A f = new C();
+//        //B g = new A();
+//        //B h = new C();
+//        //C i = (C) new A();
+//        //B j = (A) new C();
+//        B k = (B) e;
+//
+//        f.x();
+//        e.x();
+//        //e.y();
+//        //(B) e.y();
+//        ((B) e).y();
+//        e.y(e);
+//        e.y(f);
+//        System.out.println("------");
+//
+////      Extra Challenge
+////      Output:
+//        ((B) e).y(e);
+//        ((B) e).y((B) e);
+//        //((B) e).y((C) e);
+//
+//        // A e = new B(); //--> VALID
+//        // A e = new C();
+//        // B f = (B) new C(); //--> CTE
+//        A f = (B) new A(); //--> RTE
+//        // A f = new C(); //--> VALID
+//        // B g = new A(); --> Error CTE
+//        // B h = new C(); --> Error CTE
+//        // C i = (C) new A(); --> Error RTE
+//        // B j = (A) new C(); --> Error CTE
+//        // B k = (B) e; //--> VALID FOR CT AND RT
+//
+//        // f.x(); //--> "CX"
+//        // e.x(); //--> "AX"
+//        // // e.y(); --> CTE
+//        // // (B) e.y(); --> CTE
+//        // ((B) e).y(); // --> "BY"
+//        // e.y(e); //--> "AY"
+//        // e.y(f); //--> "AY"
+//        // System.out.println("------");
+//
+////      Extra Challenge
+////      Output:
+//        // ((A) e).y(e); //--> "AY"
+//        // ((B) e).y((B) e); //--> "BYZ"
+//        // ((C) e).y((B) e);
+//        // ((B) e).y((C) e); //--> RTE
 
-//      Extra Challenge
-//      Output:
-        ((B) e).y(e);
-        ((B) e).y((B) e);
-        //((B) e).y((C) e);
-=======
-        // A e = new B(); //--> VALID
-        // A e = new C(); 
-        // B f = (B) new C(); //--> CTE
-        A f = (B) new A(); //--> RTE
-        // A f = new C(); //--> VALID
-        // B g = new A(); --> Error CTE
-        // B h = new C(); --> Error CTE
-        // C i = (C) new A(); --> Error RTE
-        // B j = (A) new C(); --> Error CTE
-        // B k = (B) e; //--> VALID FOR CT AND RT
-
-        // f.x(); //--> "CX"
-        // e.x(); //--> "AX"
-        // // e.y(); --> CTE
-        // // (B) e.y(); --> CTE
-        // ((B) e).y(); // --> "BY"
-        // e.y(e); //--> "AY"
-        // e.y(f); //--> "AY"
-        // System.out.println("------");
-
-//      Extra Challenge
-//      Output:
-        // ((A) e).y(e); //--> "AY"
-        // ((B) e).y((B) e); //--> "BYZ"
-        // ((C) e).y((B) e); 
-        // ((B) e).y((C) e); //--> RTE
->>>>>>> 04ac3a99292dded7d53576851a2c39600974240a
     }
 
 
