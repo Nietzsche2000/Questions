@@ -6,3 +6,4 @@
 12. In static method lookup, during runtime, the method will be run that was selected in static lookup during compile time?
 13. Overriding instance classes.
 14. Covariant question: how to instantiate line 32?
+15. How to add data from one branch to another on git? 
