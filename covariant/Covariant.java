@@ -30,7 +30,7 @@ public class Covariant{
 		public C(){
 			// a = (T[]) new Object[10];
 			// a = (test[]) new Object[10];
-			a = test<?>[10];
+			// a = test<?>[10];
 		}
 		public void methodC(){
 			System.out.println("I am in class C.");
