@@ -49,9 +49,10 @@ public class IntList extends Object{
     public static IntList of(int ...args){
         IntList P = new IntList(args[0], null);
         for(int i = 1; i < args.length; i++){
-            P.addLastRecursive(args[i]);
+            P.next = new IntList(args[i], null);
+            P = P.next;
         }
-        return P;
+        return ;
     }
 
 }
