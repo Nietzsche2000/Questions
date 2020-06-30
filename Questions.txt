@@ -6,3 +6,4 @@
 12. In static method lookup, during runtime, the method will be run that was selected in static lookup during compile time?
 13. Overriding instance classes.
 14. Covariant question: how to instantiate line 32?
+15. How do generics broken program when I do not specify the type of the of the object inside the class. --> look at file weirdgenerics.java
