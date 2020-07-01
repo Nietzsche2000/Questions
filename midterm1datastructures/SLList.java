@@ -1,6 +1,6 @@
 public class SLList<T1> extends Object {
 
-    public static class Node<T2> {
+    public static class Node<T2> extends Object {
         public T2 item;
         public Node next;
 
@@ -104,6 +104,64 @@ public class SLList<T1> extends Object {
         }
         return getRecursiveHelper(index-1, (Node<T1>) currentNode.next);
 
+    }
+
+    public T1 removeFirst() {
+        if (this.sentinel.next == this.sentinel) {
+            return null;
+        }
+        Node<T1> previousNode = this.sentinel.next;
+        this.sentinel.next = this.sentinel.next.next;
+        this.size -= 1;
+        return previousNode.item;
+    }
+
+    public T1 removeLast() {
+        Node<T1> currentNode = this.sentinel;
+        if (this.sentinel.next == this.sentinel) {
+            return null;
+        }
+        while (currentNode.next.next != this.sentinel) {
+            currentNode = currentNode.next;
+        }
+        Node<T1> lostNode = currentNode.next;
+        currentNode.next = this.sentinel;
+        this.size -= 1;
+        return lostNode.item;
+    }
+
+    public T1 removeAt(int index) {
+        Node<T1> currentNode = this.sentinel;
+        if (this.sentinel.next == this.sentinel) {
+            return null;
+        }
+        this.size -= 1;
+        return removeAtHelper(index, currentNode);
+    }
+
+    public T1 removeAtHelper(int index, Node<T1> currentNode) {
+        if (index == 0) {
+            Node<T1> lostNode = currentNode.next;
+            currentNode.next = currentNode.next.next;
+            return lostNode.item;
+        }
+        return (T1) removeAtHelper(index - 1, currentNode.next);
+    }
+
+    public Integer find(T1 item) {
+        int findIndex = 0;
+        Node<T1> startNode = this.sentinel.next;
+        if (this.listSize() == 0) {
+            return null;
+        }
+        while (startNode != this.sentinel) {
+            if (startNode.item == item) {
+                return findIndex;
+            }
+            startNode = startNode.next;
+            findIndex += 1;
+        }
+        return null;
     }
 
 

@@ -105,7 +105,7 @@ public class SLListTest extends Object {
         for (int start = 1; start < repeatSize; start++) {
             sl.addLast(start);
             assertTrue(sl.size == start);
-            assertTrue(sl.get(start-1) == start);
+            assertTrue(sl.get(start - 1) == start);
         }
     }
 
@@ -144,7 +144,7 @@ public class SLListTest extends Object {
         for (int start = 1; start < repeatSize; start++) {
             sl.addLast(start);
             assertTrue(sl.size == start);
-            assertTrue(sl.getRecursive(start-1) == start);
+            assertTrue(sl.getRecursive(start - 1) == start);
         }
     }
 
@@ -160,8 +160,7 @@ public class SLListTest extends Object {
                 assertTrue(sl.size == ((repeatSize - start) + 1));
                 assertTrue(sl.getRecursive((repeatSize - start)) == start);
                 sizeTracker = ((repeatSize - start) + 1);
-            }
-            else if (start < 0) {
+            } else if (start < 0) {
                 sl.addLast(start);
                 assertTrue(sl.size == ((repeatSize - start) + 1));
                 assertTrue(sl.getRecursive(start) == null);
@@ -179,7 +178,7 @@ public class SLListTest extends Object {
         for (int start = 1; start < repeatSize; start++) {
             sl.addLast(start);
             assertTrue(sl.size == start);
-            assertTrue(sl.getRecursive(start-1) == start);
+            assertTrue(sl.getRecursive(start - 1) == start);
         }
         assertTrue(sl.getRecursive(8) == 9);
         assertTrue(sl.getRecursive(9) == null);
@@ -197,11 +196,167 @@ public class SLListTest extends Object {
         for (int start = 1; start < repeatSize; start++) {
             sl.addLast(start);
             assertTrue(sl.size == start);
-            assertTrue(sl.get(start-1) == start);
+            assertTrue(sl.get(start - 1) == start);
         }
         assertTrue(sl.get(8) == 9);
         assertTrue(sl.get(9) == null);
         assertTrue(sl.get(10000) == null);
     }
 
+    @Test
+    public void Test14() {
+        int repeatSize = 100;
+        SLList<Integer> sl = new SLList<>();
+        for (int start = 1; start < repeatSize; start++) {
+            sl.addLast(start);
+            assertTrue(sl.size == start);
+            assertTrue(sl.get(start - 1) == start);
+        }
+        for (int start = 1; start < repeatSize; start++) {
+            assertTrue(sl.removeFirst() == start);
+            assertTrue(sl.size == (repeatSize - 1) - start);
+        }
+    }
+
+    @Test
+    public void Test15() {
+        int repeatSize = 10;
+        SLList<Integer> sl = new SLList<>();
+        for (int start = 1; start < repeatSize; start++) {
+            sl.addLast(start);
+            assertTrue(sl.size == start);
+            assertTrue(sl.get(start - 1) == start);
+        }
+        for (int start = 1; start < repeatSize; start++) {
+            assertTrue(sl.removeFirst() == start);
+            assertTrue(sl.size == (repeatSize - 1) - start);
+        }
+        assertTrue(sl.listSize() == 0);
+        for (int start = 1; start < repeatSize; start++) {
+            assertTrue(sl.removeFirst() == null);
+            assertTrue(sl.size == 0);
+        }
+        assertTrue(sl.listSize() == 0);
+        for (int start = 1; start < repeatSize; start++) {
+            sl.addLast(start);
+            assertTrue(sl.size == start);
+            assertTrue(sl.get(start - 1) == start);
+        }
+    }
+
+    @Test //
+    public void Test16() {
+        int repeatSize = 10;
+        SLList<Integer> sl = new SLList<>();
+        for (int start = 1; start < repeatSize; start++) {
+            sl.addLast(start);
+            assertTrue(sl.size == start);
+            assertTrue(sl.get(start - 1) == start);
+        }
+        for (int start = 1; start < repeatSize; start++) {
+            assertTrue(sl.removeLast() == repeatSize - start);
+            assertTrue(sl.size == (repeatSize - 1) - start);
+        }
+        assertTrue(sl.listSize() == 0);
+        for (int start = 1; start < repeatSize; start++) {
+            assertTrue(sl.removeLast() == null);
+            assertTrue(sl.size == 0);
+        }
+        assertTrue(sl.listSize() == 0);
+        for (int start = 1; start < repeatSize; start++) {
+            sl.addLast(start);
+            assertTrue(sl.size == start);
+            assertTrue(sl.get(start - 1) == start);
+        }
+    }
+
+    @Test
+    public void Test17() {
+        int repeatSize = 10;
+        SLList<Integer> sl = new SLList<>();
+        for (int start = 1; start < repeatSize; start++) {
+            sl.addLast(start);
+            assertTrue(sl.size == start);
+            assertTrue(sl.get(start - 1) == start);
+        }
+        for (int start = 1; start < repeatSize; start++) {
+            assertTrue(sl.removeAt((repeatSize - 1) - start) == repeatSize - start);
+            assertTrue(sl.size == (repeatSize - 1) - start);
+        }
+        assertTrue(sl.listSize() == 0);
+        for (int start = 1; start < repeatSize; start++) {
+            assertTrue(sl.removeAt((repeatSize - 1) - start) == null);
+            assertTrue(sl.size == 0);
+        }
+        assertTrue(sl.listSize() == 0);
+        for (int start = 1; start < repeatSize; start++) {
+            sl.addLast(start);
+            assertTrue(sl.size == start);
+            assertTrue(sl.get(start - 1) == start);
+        }
+    }
+
+    @Test
+    public void Test18() {
+        int max = 5;
+        SLList<Integer> L = new SLList<>();
+        assertNull(L.removeFirst());
+        for (int i = 0; i < max; i++)
+            L.addLastRecursive(i);
+        for (int i = 0; i < max; i++)
+            assertTrue(L.removeFirst() == i);
+        assertTrue(L.listSize() == 0);
+    }
+
+    @Test
+    public void Test19() {
+        int repeatSize = 10;
+        SLList<Integer> sl = new SLList<>();
+        for (int start = 1; start < repeatSize; start++) {
+            sl.addLast(start);
+            assertTrue(sl.size == start);
+            assertTrue(sl.get(start - 1) == start);
+        }
+        for (int start = 1; start < repeatSize; start++) {
+            assertTrue(sl.removeAt(0) == start);
+            assertTrue(sl.size == (repeatSize - 1) - start);
+        }
+        assertTrue(sl.listSize() == 0);
+        for (int start = 1; start < repeatSize; start++) {
+            assertTrue(sl.removeAt(0) == null);
+            assertTrue(sl.size == 0);
+        }
+        assertTrue(sl.listSize() == 0);
+        for (int start = 1; start < repeatSize; start++) {
+            sl.addLast(start);
+            assertTrue(sl.size == start);
+            assertTrue(sl.get(start - 1) == start);
+        }
+    }
+
+    @Test
+    public void Test20() {
+        int max = 5;
+        SLList<Integer> L = new SLList<>();
+        assertNull(L.removeAt(0));
+        for (int i = 0; i < max; i++)
+            L.addLastRecursive(i);
+        assertTrue(L.removeAt(1) == 1);
+        assertTrue(L.removeAt(2) == 3);
+        assertTrue(L.removeAt(2) == 4);
+        assertTrue(L.removeAt(0) == 0);
+        assertTrue(L.listSize() == 1);
+    }
+
+    @Test
+    public void Test21() {
+        int max = 10;
+        SLList<Integer> L = new SLList<>();
+        for (int i = 0; i < max; i++)
+            L.addLastRecursive(i);
+        assertTrue(L.find(5) == 5);
+        assertTrue(L.find(6) == 6);
+        assertTrue(L.find(7) == 7);
+        assertTrue(L.find(8) == 8);
+    }
 }
