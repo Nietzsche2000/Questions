@@ -151,4 +151,28 @@ public class SLListTest {
         assertTrue(L.removeAtRecursive(0) == 0);
         assertTrue(L.size() == 1);
     }
+
+    @Test
+    public void findTest() {
+        int max = 10;
+        SLList<Integer> L = new SLList<>();
+        for (int i = 0; i < max; i++)
+            L.addLastRecursive(i);
+        assertTrue(L.find(5) == 5);
+        assertTrue(L.find(6) == 6);
+        assertTrue(L.find(7) == 7);
+        assertTrue(L.find(8) == 8);
+    }
+
+    @Test
+    public void findTestRecursive() {
+        int max = 10;
+        SLList<Integer> L = new SLList<>();
+        for (int i = 0; i < max; i++)
+            L.addLastRecursive(i);
+        assertTrue(L.findRecursive(5) == 5);
+        assertTrue(L.findRecursive(6) == 6);
+        assertTrue(L.findRecursive(7) == 7);
+        assertTrue(L.findRecursive(8) == 8);
+    }
 }

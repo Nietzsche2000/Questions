@@ -150,12 +150,8 @@ public class SLList<T> {
     /**
      * Sort
      * Based on comparator delete.
-     * get that returns an index
      * multiply number of items by their value.
-     *
-     *
-     *
-     */
+     * /
 
     /**
      * Reverse method for the SLList recursively
@@ -192,13 +188,15 @@ public class SLList<T> {
         }
     }
 
-    /** Remove Last Method */
-    public T removeLast(){
+    /**
+     * Remove Last Method
+     */
+    public T removeLast() {
         if (sentinel.next == sentinel)
             return null;
         T lastItem;
         Node p = sentinel;
-        while(p.next.next != sentinel){
+        while (p.next.next != sentinel) {
             p = p.next;
         }
         lastItem = p.next.item;
@@ -207,16 +205,18 @@ public class SLList<T> {
         return lastItem;
     }
 
-    /** Remove Last recursively */
-    public T removeLastRecursive(){
+    /**
+     * Remove Last recursively
+     */
+    public T removeLastRecursive() {
         if (sentinel.next == sentinel)
             return null;
         size--;
         return removeLastRecursive(sentinel);
     }
 
-    private T removeLastRecursive(Node node){
-        if(node.next.next == sentinel) {
+    private T removeLastRecursive(Node node) {
+        if (node.next.next == sentinel) {
             T item = node.next.item;
             node.next = node.next.next;
             return item;
@@ -225,8 +225,10 @@ public class SLList<T> {
 
     }
 
-    /** Remove First */
-    public T removeFirst(){
+    /**
+     * Remove First
+     */
+    public T removeFirst() {
         if (sentinel.next == sentinel)
             return null;
         T item = getFirst();
@@ -235,12 +237,14 @@ public class SLList<T> {
         return item;
     }
 
-    /** Remove on Index */
-    public T removeAt(int index){
+    /**
+     * Remove on Index
+     */
+    public T removeAt(int index) {
         if (index >= size || index < 0)
             return null;
         Node P = sentinel;
-        while(index > 0){
+        while (index > 0) {
             P = P.next;
             index--;
         }
@@ -250,17 +254,21 @@ public class SLList<T> {
         return item;
     }
 
-    /** Remove At recursive */
-    public T removeAtRecursive(int index){
+    /**
+     * Remove At recursive
+     */
+    public T removeAtRecursive(int index) {
         if (index >= size || index < 0)
             return null;
         size--;
         return removeAtRecursive(sentinel, index);
     }
 
-    /** Private Method for Remove At */
-    private T removeAtRecursive(Node node, int index){
-        if(index == 0){
+    /**
+     * Private Method for Remove At
+     */
+    private T removeAtRecursive(Node node, int index) {
+        if (index == 0) {
             T item = node.next.item;
             node.next = node.next.next;
             return item;
@@ -268,5 +276,38 @@ public class SLList<T> {
         return removeAtRecursive(node.next, index - 1);
     }
 
+    /**
+     * find method for SLList.
+     */
+    public int find(T item) {
+        Node P = sentinel.next;
+        int index = 0;
+        while (P != sentinel) {
+            if (P.item.equals(item))
+                return index;
+            P = P.next;
+            index++;
+        }
+        return index;
+    }
+
+    /**
+     * Recursively find the index for a particular item
+     * returns negative 1 if item not present
+     */
+    public int findRecursive(T item) {
+        return findRecursive(sentinel.next, item);
+    }
+
+    /**
+     * Private method for find Recursive
+     */
+    private int findRecursive(Node node, T item) {
+        if (node == sentinel)
+            return -1;
+        if (item.equals(node.item))
+            return 0;
+        return 1 + findRecursive(node.next, item);
+    }
 
 }
