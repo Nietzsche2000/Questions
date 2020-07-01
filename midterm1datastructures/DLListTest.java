@@ -131,4 +131,17 @@ public class DLListTest {
             assertTrue(L.findRecursive(i) == i);
     }
 
+    @Test
+    public void reverseTest(){
+        DLList<Integer> L = new DLList<>();
+        int max = 50;
+        assertTrue(L.findRecursive(0) == -1);
+        for (int i = 0; i < max; i++)
+            L.addLast(i);
+        L.reverse();
+        L.reverse();
+        for (int i = 0; i < max; i++)
+            assertTrue(L.find(i) == i);
+    }
+
 }

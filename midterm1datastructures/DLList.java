@@ -210,6 +210,23 @@ public class DLList<T> {
         return 1 + findRecursive(node.next, item);
     }
 
-    /** Reverse method */
+    /** Reverse method using recursion */
+    public void reverse(){
+        sentinel = reverse(sentinel);
+    }
+
+    /** Helper method for reverse */
+    private Node reverse(Node node){
+        if(node.next == sentinel){
+            node.prev = sentinel;
+            sentinel.next = node;
+            return node;
+        }
+        Node reverseRest = reverse(node.next);
+        reverseRest.next = node;
+        node.prev = reverseRest;
+        return node;
+    }
+
 
 }
