@@ -25,6 +25,7 @@ public class DLListTest {
     public void getFirstTest() {
         DLList<Integer> L = new DLList<>();
         int max = 2000000;
+        assertNull(L.getFirst());
         for (int i = 0; i < max; i++)
             L.addFirst(i);
         assertTrue(max - 1 == L.getFirst());
@@ -32,6 +33,7 @@ public class DLListTest {
     @Test
     public void getLastTest() {
         DLList<Integer> L = new DLList<>();
+        assertNull(L.getLast());
         int max = 2000000;
         for (int i = 0; i < max; i++)
             L.addFirst(i);
@@ -93,7 +95,8 @@ public class DLListTest {
         assertTrue(L.removeAtIterative(0) == 0);
         assertTrue(L.removeAtIterative(1) == 2);
         assertTrue(L.removeAtIterative(3) == 5);
-        assertTrue(L.size() == max - 3);
+        assertTrue(L.removeAtIterative(3) == 6);
+        assertTrue(L.size() == max - 4);
     }
 
     @Test

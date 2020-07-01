@@ -137,7 +137,7 @@ public class DLList<T> {
             return null;
         int i = index;
         Node p;
-        if (i > (size / 2)) {
+        if (i >= (size / 2)) {
             i = size - i - 1;
             p = sentinel.prev;
             while (i > 0) {
