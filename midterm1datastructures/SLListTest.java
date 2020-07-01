@@ -64,7 +64,7 @@ public class SLListTest {
 
     @Test
     public void reverseTest() {
-        int max = 10;
+        int max = 5;
         SLList<Integer> L = new SLList<>();
         for (int i = 0; i < max; i++)
             L.addLastRecursive(i);
@@ -75,19 +75,80 @@ public class SLListTest {
         }
     }
 
+    @Test
+    public void reverseTestIterative() {
+        int max = 5;
+        SLList<Integer> L = new SLList<>();
+        for (int i = 0; i < max; i++)
+            L.addLastRecursive(i);
+        L.reverseIterative();
+        for (int i = 0; i < max; i++) {
+            assertTrue(L.get(i) == (max - 1));
+            max--;
+        }
+    }
 
-    //    @Test
-//    public void equalsTest(){
-//        int max = 3;
-//        SLList<Integer> L = new SLList<>();
-//        SLList<Integer> P = new SLList<>();
-//        for(int i = 0; i < max; i++){
-//            L.addLastRecursive(i);
-//            P.addLastRecursive(i);
-//        }
-//        assertTrue(L.equals(P));
-//    }
+    @Test
+    public void removeLastTest() {
+        int max = 5;
+        SLList<Integer> L = new SLList<>();
+        assertNull(L.removeLast());
+        for (int i = 0; i < max; i++)
+            L.addLastRecursive(i);
+        for (int i = max - 1; i >= 0; i--)
+            assertTrue(L.removeLast() == i);
+        assertTrue(L.size() == 0);
+    }
 
+    @Test
+    public void removeLastRecursiveTest() {
+        int max = 5;
+        SLList<Integer> L = new SLList<>();
+        assertNull(L.removeLastRecursive());
+        for (int i = 0; i < max; i++)
+            L.addLastRecursive(i);
+        for (int i = max - 1; i >= 0; i--)
+            assertTrue(L.removeLastRecursive() == i);
+        assertTrue(L.size() == 0);
+    }
 
+    @Test
+    public void removeFirstTest() {
+        int max = 5;
+        SLList<Integer> L = new SLList<>();
+        assertNull(L.removeFirst());
+        for (int i = 0; i < max; i++)
+            L.addLastRecursive(i);
+        for (int i = 0; i < max; i++)
+            assertTrue(L.removeFirst() == i);
+        assertTrue(L.size() == 0);
+    }
 
+    @Test
+    public void removeAtTest() {
+        int max = 5;
+        SLList<Integer> L = new SLList<>();
+        assertNull(L.removeAt(0));
+        for (int i = 0; i < max; i++)
+            L.addLastRecursive(i);
+        assertTrue(L.removeAt(1) == 1);
+        assertTrue(L.removeAt(2) == 3);
+        assertTrue(L.removeAt(2) == 4);
+        assertTrue(L.removeAt(0) == 0);
+        assertTrue(L.size() == 1);
+    }
+
+    @Test
+    public void removeAtRecursiveTest() {
+        int max = 5;
+        SLList<Integer> L = new SLList<>();
+        assertNull(L.removeAtRecursive(0));
+        for (int i = 0; i < max; i++)
+            L.addLastRecursive(i);
+        assertTrue(L.removeAtRecursive(1) == 1);
+        assertTrue(L.removeAtRecursive(2) == 3);
+        assertTrue(L.removeAtRecursive(2) == 4);
+        assertTrue(L.removeAtRecursive(0) == 0);
+        assertTrue(L.size() == 1);
+    }
 }
