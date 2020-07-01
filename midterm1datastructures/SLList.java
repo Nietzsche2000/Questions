@@ -45,4 +45,107 @@ public class SLList<T>{
         return new IntNode(node.item, addLastRecursiveHelper(node.next, item));
     }
 
+    /** Add First method for SLList */
+    public void addFirst(T i){
+        sentinel.next = new IntNode(i, sentinel.next);
+        size++;
+    }
+
+    /** Get First method */
+    public T getFirst(){
+        if(sentinel.next == sentinel)
+            return null;
+        return sentinel.next.item;
+    }
+
+    /** Public get Last method Iteratively*/
+    public T getLast(){
+        if(sentinel.next == sentinel)
+            return null;
+        IntNode p = sentinel;
+        while(p.next != sentinel)
+            p = p.next;
+        return p.item;
+    }
+
+    /** Public get Last method recursive */
+    public T getLastRecursive(){
+        if(sentinel.next == sentinel)
+            return null;
+        return getLastHelper(sentinel.next);
+    }
+
+    /** Private method for getLast recursive */
+    private T getLastHelper(IntNode node){
+        if(node.next == sentinel)
+            return node.item;
+        return getLastHelper(node.next);
+    }
+
+    /** Get method at a particular index iteratively */
+    public T get(int index){
+        if(index >= size || index < 0)
+            return null;
+        IntNode P = sentinel;
+        while(index >= 0){
+            P = P.next;
+            index--;
+        }
+        return P.item;
+    }
+
+    /** Get method at a particular method recursively */
+    public T getRecursive(int index){
+        if(index >= size || index < 0)
+            return null;
+        return getRecursiveHelper(sentinel.next, index);
+    }
+
+    /** Private helper method for recursive get */
+    private T getRecursiveHelper(IntNode node, int index){
+        if(index == 0)
+            return node.item;
+        return getRecursiveHelper(node.next, index - 1);
+    }
+
+    /** Get size method */
+    public int size(){
+        return size;
+    }
+
+    /** Reverse
+     * Sort
+     * Based on comparator delete.
+     * get that returns an index
+     * multiply number of items by their value.
+     * remove Last
+     * remove First
+     * remove an index
+     */
+
+    /** Reverse method for the SLList recursively */
+    public void reverse(){
+        sentinel = reverse(sentinel);
+    }
+
+    /** Recursive reverse method helper */
+    private IntNode reverse(IntNode node){
+        if(node.next == sentinel){
+            sentinel.next = node;
+            return node;
+        }
+        IntNode temp = reverse(node.next);
+        temp.next = node;
+        return node;
+    }
+
+    /** Reverse method for the SLList Iteratively */
+    public void reverseIterative(){
+        IntNode P = sentinel;
+        while(P.next != sentinel){
+            P.next.next = P;
+        }
+
+    }
+
 }
