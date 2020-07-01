@@ -278,6 +278,7 @@ public class SLList<T> {
 
     /**
      * find method for SLList.
+     * returns -1 if not in the list.
      */
     public int find(T item) {
         Node P = sentinel.next;
@@ -288,7 +289,7 @@ public class SLList<T> {
             P = P.next;
             index++;
         }
-        return index;
+        return -1;
     }
 
     /**
