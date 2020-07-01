@@ -1,0 +1,7 @@
+Command option L — reformat code
+command K — Github commit
+command shift K — github push
+command [ or ] — back and forth between recent files.
+command E — pop up windows to cycle between files
+command 1 — Hide files bar
+Control control — run anything. 
