@@ -29,7 +29,7 @@ public class staticClasses{
 
 	public static class C extends B{
 		/** Is this Overriding or Shadowing or class hiding? */
-		/** Is this the cosequence of lexical scoping? */
+		/** Is this the consequence of lexical scoping? */
 		public class Test{
 			
 		}
