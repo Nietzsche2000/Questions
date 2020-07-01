@@ -46,6 +46,7 @@ public class SLListTest{
             assertTrue(L.get(i) == i);
             assertTrue(L.getRecursive(i) == i);
         }
+        assertNull(L.getRecursive(100000));
     }
 
     @Test
@@ -71,6 +72,18 @@ public class SLListTest{
             assertTrue(L.get(i) == (max - 1));
             max--;
         }
+    }
+
+    @Test
+    public void equalsTest(){
+        int max = 3;
+        SLList<Integer> L = new SLList<>();
+        SLList<Integer> P = new SLList<>();
+        for(int i = 0; i < max; i++){
+            L.addLastRecursive(i);
+            P.addLastRecursive(i);
+        }
+        assertTrue(L.equals(P));
     }
 
 
