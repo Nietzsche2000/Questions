@@ -196,28 +196,36 @@ public class DLList<T> {
         return -1;
     }
 
-    /** Find method recursive */
-    public int findRecursive(T item){
+    /**
+     * Find method recursive
+     */
+    public int findRecursive(T item) {
         return findRecursive(sentinel.next, item);
     }
 
-    /** Helper method for find recursive */
-    private int findRecursive(Node node, T item){
-        if(node == sentinel)
+    /**
+     * Helper method for find recursive
+     */
+    private int findRecursive(Node node, T item) {
+        if (node == sentinel)
             return -1;
-        if(node.item.equals(item))
+        if (node.item.equals(item))
             return 0;
         return 1 + findRecursive(node.next, item);
     }
 
-    /** Reverse method using recursion */
-    public void reverse(){
+    /**
+     * Reverse method using recursion
+     */
+    public void reverse() {
         sentinel = reverse(sentinel);
     }
 
-    /** Helper method for reverse */
-    private Node reverse(Node node){
-        if(node.next == sentinel){
+    /**
+     * Helper method for reverse
+     */
+    private Node reverse(Node node) {
+        if (node.next == sentinel) {
             node.prev = sentinel;
             sentinel.next = node;
             return node;

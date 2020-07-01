@@ -30,6 +30,7 @@ public class DLListTest {
             L.addFirst(i);
         assertTrue(max - 1 == L.getFirst());
     }
+
     @Test
     public void getLastTest() {
         DLList<Integer> L = new DLList<>();
@@ -39,6 +40,7 @@ public class DLListTest {
             L.addFirst(i);
         assertTrue(0 == L.getLast());
     }
+
     @Test
     public void removeFirstTest() {
         DLList<Integer> L = new DLList<>();
@@ -58,12 +60,12 @@ public class DLListTest {
         assertNull(L.removeLast());
         for (int i = 0; i < max; i++)
             L.addLast(i);
-        for (int i = max - 1; i >= 0 ; i--)
+        for (int i = max - 1; i >= 0; i--)
             assertTrue(L.removeLast() == i);
     }
 
     @Test
-    public void getTest(){
+    public void getTest() {
         DLList<Integer> L = new DLList<>();
         int max = 50;
         assertNull(L.get(0));
@@ -74,7 +76,7 @@ public class DLListTest {
     }
 
     @Test
-    public void sizeTest(){
+    public void sizeTest() {
         int max = 1000000;
         DLList<Integer> L = new DLList<>();
         assertTrue(L.size() == 0);
@@ -82,7 +84,7 @@ public class DLListTest {
             L.addLast(i);
             L.addFirst(i);
         }
-        assertTrue(L.size() == max*2);
+        assertTrue(L.size() == max * 2);
     }
 
     @Test
@@ -113,7 +115,7 @@ public class DLListTest {
     }
 
     @Test
-    public void findTest(){
+    public void findTest() {
         DLList<Integer> L = new DLList<>();
         int max = 50;
         assertTrue(L.find(0) == -1);
@@ -124,7 +126,7 @@ public class DLListTest {
     }
 
     @Test
-    public void findRecursiveTest(){
+    public void findRecursiveTest() {
         DLList<Integer> L = new DLList<>();
         int max = 50;
         assertTrue(L.findRecursive(0) == -1);
@@ -135,7 +137,7 @@ public class DLListTest {
     }
 
     @Test
-    public void reverseTest(){
+    public void reverseTest() {
         DLList<Integer> L = new DLList<>();
         int max = 50;
         assertTrue(L.findRecursive(0) == -1);
