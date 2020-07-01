@@ -96,7 +96,7 @@ public class SLList<T1> extends Object {
     }
 
     public T1 getRecursiveHelper(int index, Node<T1> currentNode) {
-        if (index < 0) {
+        if (currentNode == this.sentinel) {
             return null;
         }
         else if (index == 0) {
@@ -107,13 +107,10 @@ public class SLList<T1> extends Object {
     }
 
 
-
 //    public static void main(String[] args) {
 //        Node<String> tt = new Node<>("the", null);
 //        tt.next = new Node<String>("dog", null);
 //    }
-
-
 
 
 }

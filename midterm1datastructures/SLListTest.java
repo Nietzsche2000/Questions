@@ -171,4 +171,37 @@ public class SLListTest extends Object {
         assertTrue(sl.size == sizeTracker);
     }
 
+    @Test
+    public void Test12() {
+        int repeatSize = 10;
+        SLList<Integer> sl = new SLList<>();
+        assertTrue(sl.size == 0);
+        for (int start = 1; start < repeatSize; start++) {
+            sl.addLast(start);
+            assertTrue(sl.size == start);
+            assertTrue(sl.getRecursive(start-1) == start);
+        }
+        assertTrue(sl.getRecursive(8) == 9);
+        assertTrue(sl.getRecursive(9) == null);
+        assertTrue(sl.getRecursive(10000) == null);
+        assertTrue(sl.getRecursive(10) == null);
+        assertTrue(sl.getRecursive(-10) == null);
+        assertTrue(sl.getRecursive(-1) == null);
+    }
+
+    @Test
+    public void Test13() {
+        int repeatSize = 10;
+        SLList<Integer> sl = new SLList<>();
+        assertTrue(sl.size == 0);
+        for (int start = 1; start < repeatSize; start++) {
+            sl.addLast(start);
+            assertTrue(sl.size == start);
+            assertTrue(sl.get(start-1) == start);
+        }
+        assertTrue(sl.get(8) == 9);
+        assertTrue(sl.get(9) == null);
+        assertTrue(sl.get(10000) == null);
+    }
+
 }
