@@ -52,7 +52,7 @@ public class IntList extends Object{
             P.next = new IntList(args[i], null);
             P = P.next;
         }
-        return ;
+        return P;
     }
 
 }

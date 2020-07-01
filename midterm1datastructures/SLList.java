@@ -19,7 +19,8 @@ public class SLList<T>{
 
     /** Constructor for the SLList */
     public SLList(){
-        sentinel = new IntNode(null, sentinel); // null is a garbage value.
+        sentinel = new IntNode(null, null); // null is a garbage value.
+        sentinel.next = sentinel;
     }
 
     /** Add Last method for the List using Iteration */
@@ -27,18 +28,20 @@ public class SLList<T>{
         IntNode P = sentinel;
         while(P.next != sentinel)
             P = P.next;
-        P.next = new IntNode(i, null);
+        P.next = new IntNode(i, P.next);
+        size++;
     }
 
     /** Add Last method Recursively */
     public void addLastRecursive(T i){
-        sentinel = addLastRecursiveHelper(sentinel, i);
+        size++;
+        sentinel.next = addLastRecursiveHelper(sentinel.next, i);
     }
 
     /** Private helper method for the addLast Recursive */
     private IntNode addLastRecursiveHelper(IntNode node, T item){
         if(node == sentinel)
-            return new IntNode(item, null);
+            return new IntNode(item, sentinel);
         return new IntNode(node.item, addLastRecursiveHelper(node.next, item));
     }
 
