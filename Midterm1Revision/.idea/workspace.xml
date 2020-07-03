@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e3a61fc-d225-495c-917c-3fae303980d9" name="Default Changelist" comment="finished file">
+    <list default="true" id="1e3a61fc-d225-495c-917c-3fae303980d9" name="Default Changelist" comment="verified hard static method lookup.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HardStaticLookup.java" beforeDir="false" afterPath="$PROJECT_DIR$/HardStaticLookup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593765528210</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="verified hard static method lookup.">
+      <created>1593766595242</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593766595242</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,33 +156,34 @@
     <MESSAGE value="added another file to the review" />
     <MESSAGE value="merge check" />
     <MESSAGE value="finished file" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished file" />
+    <MESSAGE value="verified hard static method lookup." />
+    <option name="LAST_COMMIT_MESSAGE" value="verified hard static method lookup." />
   </component>
   <component name="WindowStateProjectService">
     <state x="475" y="470" key="#xdebugger.evaluate" timestamp="1593765717950">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="475" y="470" key="#xdebugger.evaluate/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765717950" />
-    <state width="1369" height="234" key="GridCell.Tab.0.bottom" timestamp="1593766482472">
+    <state width="1369" height="234" key="GridCell.Tab.0.bottom" timestamp="1593766612989">
       <screen x="29" y="23" width="1411" height="877" />
     </state>
     <state width="1638" height="364" key="GridCell.Tab.0.bottom/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811931" />
-    <state width="1369" height="234" key="GridCell.Tab.0.bottom/29.23.1411.877@29.23.1411.877" timestamp="1593766482472" />
-    <state width="1369" height="234" key="GridCell.Tab.0.center" timestamp="1593766482471">
+    <state width="1369" height="234" key="GridCell.Tab.0.bottom/29.23.1411.877@29.23.1411.877" timestamp="1593766612989" />
+    <state width="1369" height="234" key="GridCell.Tab.0.center" timestamp="1593766612989">
       <screen x="29" y="23" width="1411" height="877" />
     </state>
     <state width="1638" height="364" key="GridCell.Tab.0.center/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811929" />
-    <state width="1369" height="234" key="GridCell.Tab.0.center/29.23.1411.877@29.23.1411.877" timestamp="1593766482471" />
-    <state width="1369" height="234" key="GridCell.Tab.0.left" timestamp="1593766482470">
+    <state width="1369" height="234" key="GridCell.Tab.0.center/29.23.1411.877@29.23.1411.877" timestamp="1593766612989" />
+    <state width="1369" height="234" key="GridCell.Tab.0.left" timestamp="1593766612989">
       <screen x="29" y="23" width="1411" height="877" />
     </state>
     <state width="1638" height="364" key="GridCell.Tab.0.left/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811928" />
-    <state width="1369" height="234" key="GridCell.Tab.0.left/29.23.1411.877@29.23.1411.877" timestamp="1593766482470" />
-    <state width="1369" height="234" key="GridCell.Tab.0.right" timestamp="1593766482471">
+    <state width="1369" height="234" key="GridCell.Tab.0.left/29.23.1411.877@29.23.1411.877" timestamp="1593766612989" />
+    <state width="1369" height="234" key="GridCell.Tab.0.right" timestamp="1593766612989">
       <screen x="29" y="23" width="1411" height="877" />
     </state>
     <state width="1638" height="364" key="GridCell.Tab.0.right/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811930" />
-    <state width="1369" height="234" key="GridCell.Tab.0.right/29.23.1411.877@29.23.1411.877" timestamp="1593766482471" />
+    <state width="1369" height="234" key="GridCell.Tab.0.right/29.23.1411.877@29.23.1411.877" timestamp="1593766612989" />
     <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1593765811933">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -198,11 +205,15 @@
     </state>
     <state width="1361" height="1097" key="SwitcherDM/1680.-1110.3840.2160/0.0.1680.1050@1680.-1110.3840.2160" timestamp="1593762374769" />
     <state width="500" height="445" key="SwitcherDM/29.23.1411.877@29.23.1411.877" timestamp="1593741801464" />
-    <state x="363" y="213" key="Vcs.Push.Dialog.v2" timestamp="1593765537304">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="334" y="201" key="Vcs.Push.Dialog.v2" timestamp="1593766599107">
+      <screen x="29" y="23" width="1411" height="877" />
     </state>
     <state x="363" y="213" key="Vcs.Push.Dialog.v2/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765537304" />
-    <state x="334" y="201" key="Vcs.Push.Dialog.v2/29.23.1411.877@29.23.1411.877" timestamp="1593741125935" />
+    <state x="334" y="201" key="Vcs.Push.Dialog.v2/29.23.1411.877@29.23.1411.877" timestamp="1593766599107" />
+    <state x="522" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593772266417">
+      <screen x="29" y="23" width="1411" height="877" />
+    </state>
+    <state x="522" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/29.23.1411.877@29.23.1411.877" timestamp="1593772266417" />
     <state x="505" y="248" key="run.anything.popup" timestamp="1593765363284">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
