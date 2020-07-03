@@ -44,6 +44,8 @@ public class HardStaticMethodLookupWithInput {
         Outer oi = new Inner();
         Inner ii = new Inner();
 
+        Inner iioi = (Inner) oi;
+
         //Outer oio = (Inner) new Outer();
         Outer ooi = (Outer) new Inner();
 
@@ -56,7 +58,10 @@ public class HardStaticMethodLookupWithInput {
 //        oi.m1(oo, oo); // m1 --> Outer
 //        ((Inner) oi).m1(oo, oo); // m1 --> Inner
 //        ((Inner) oi).m1((Inner) oi, (Inner) oi);
-
+//        ((Outer) iioi).m1(oo, oo); // m1 --> Outer
+//        ii.m4(ii, ii); // m4 --> Outer
+//        oi.m3(ii, oo); // m3 --> Outer
+//        ii.m3((Inner) ooi, oo); // m3 --> Inner
 
 
 
