@@ -1,0 +1,4 @@
+Rules:
+1. Method of nonstatic and static with identical signatures are not allowed in the inheritance chain.
+2. JVM does not allow static and non-static variables of the same name.
+3. 
