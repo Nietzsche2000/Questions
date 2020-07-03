@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e3a61fc-d225-495c-917c-3fae303980d9" name="Default Changelist" comment="added two more methods to check static inheritance chain">
+      <change afterPath="$PROJECT_DIR$/MethodLookupStaticWithStaticVar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Rules.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm1review.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../midterm1review.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1e9iob48eNIJQD4XM8r0drvTC4d" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Application.MethodLookupStaticWithStaticVar">
+    <configuration name="MethodLookup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MethodLookup" />
+      <module name="Midterm1Revision" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodLookupStaticWithStaticVar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MethodLookupStaticWithStaticVar" />
+      <module name="Midterm1Revision" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MethodLookupStaticWithStaticVar" />
+        <item itemvalue="Application.MethodLookup" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e3a61fc-d225-495c-917c-3fae303980d9" name="Default Changelist" comment="" />
+      <created>1593740384575</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593740384575</updated>
+    </task>
+    <task id="LOCAL-00001" summary="added two more methods to check static inheritance chain">
+      <created>1593741121899</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593741121899</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added two more methods to check static inheritance chain" />
+    <option name="LAST_COMMIT_MESSAGE" value="added two more methods to check static inheritance chain" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1369" height="231" key="GridCell.Tab.0.bottom" timestamp="1593741949168">
+      <screen x="29" y="23" width="1411" height="877" />
+    </state>
+    <state width="1369" height="231" key="GridCell.Tab.0.bottom/29.23.1411.877@29.23.1411.877" timestamp="1593741949168" />
+    <state width="1369" height="231" key="GridCell.Tab.0.center" timestamp="1593741949168">
+      <screen x="29" y="23" width="1411" height="877" />
+    </state>
+    <state width="1369" height="231" key="GridCell.Tab.0.center/29.23.1411.877@29.23.1411.877" timestamp="1593741949168" />
+    <state width="1369" height="231" key="GridCell.Tab.0.left" timestamp="1593741949167">
+      <screen x="29" y="23" width="1411" height="877" />
+    </state>
+    <state width="1369" height="231" key="GridCell.Tab.0.left/29.23.1411.877@29.23.1411.877" timestamp="1593741949167" />
+    <state width="1369" height="231" key="GridCell.Tab.0.right" timestamp="1593741949168">
+      <screen x="29" y="23" width="1411" height="877" />
+    </state>
+    <state width="1369" height="231" key="GridCell.Tab.0.right/29.23.1411.877@29.23.1411.877" timestamp="1593741949168" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1593741801464">
+      <screen x="29" y="23" width="1411" height="877" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/29.23.1411.877@29.23.1411.877" timestamp="1593741801464" />
+    <state x="334" y="201" key="Vcs.Push.Dialog.v2" timestamp="1593741125935">
+      <screen x="29" y="23" width="1411" height="877" />
+    </state>
+    <state x="334" y="201" key="Vcs.Push.Dialog.v2/29.23.1411.877@29.23.1411.877" timestamp="1593741125935" />
+  </component>
+</project>
