@@ -17,7 +17,7 @@ public class HardStaticLookup {
         }
 
         public static void PA(int x){
-            System.out.println(var1 + ", " + var2);
+            System.out.println(var1 + ", " + A.var2);
             System.out.println("I am method PA from class A. (1 input)");
         }
 
