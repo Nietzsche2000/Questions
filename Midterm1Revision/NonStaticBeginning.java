@@ -20,7 +20,7 @@ public class NonStaticBeginning {
         }
 
         public void m1(TLR var1) {
-            System.out.println("m1 --> TLR (T)");
+            System.out.println("m1 --> T (TLR)");
         }
 
         public void m1(T var1) {
@@ -110,7 +110,7 @@ public class NonStaticBeginning {
 //        }
 
         public void m1(TLR var1) {
-            System.out.println("m1 --> TLR (T)");
+            System.out.println("m1 --> TLR (TLR)");
         }
 
         public class TLRR extends TLR {
@@ -157,7 +157,8 @@ public class NonStaticBeginning {
 //        t_tl.m1(tl_tl); // m1 --> TL (TL)
 //        t_tl.m1(t_tr); // m1 --> TL (T)
 //        t_tl.m1(tr_tr); // m1 --> TL (T)
-
+//        t_tl.m1(tll_tll); // m1 --> TL (TL)
+        t_tl.m1(tlr);
 
 //        T JUNK1 = ((TLR) t_tlr).new TLRR();
 //        TLR tt = NSB.new TLR();
