@@ -4,7 +4,7 @@ public class NonStaticBeginning {
         System.out.println("m1 --> NSB (Object)");
     }
 
-    public void m1(T var1) {
+    public void m1(TR var1) {
         System.out.println("m1 --> NSB (T)");
     }
 
