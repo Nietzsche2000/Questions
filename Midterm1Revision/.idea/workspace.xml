@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e3a61fc-d225-495c-917c-3fae303980d9" name="Default Changelist" comment="merge check">
+    <list default="true" id="1e3a61fc-d225-495c-917c-3fae303980d9" name="Default Changelist" comment="finished file">
+      <change afterPath="$PROJECT_DIR$/HardStaticLookup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MethodLookupStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/MethodLookupStatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Midterm1Revision/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Midterm1Revision/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +55,23 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.MethodLookupStaticWithStaticVar">
+  <component name="RunManager" selected="Application.HardStaticLookup">
+    <configuration name="HardStaticLookup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HardStaticLookup" />
+      <module name="Midterm1Revision" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MethodLookup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MethodLookup" />
+      <module name="Midterm1Revision" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodLookupStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MethodLookupStatic" />
       <module name="Midterm1Revision" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,6 +86,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HardStaticLookup" />
+        <item itemvalue="Application.MethodLookupStatic" />
         <item itemvalue="Application.MethodLookupStaticWithStaticVar" />
         <item itemvalue="Application.MethodLookup" />
       </list>
@@ -100,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593763717433</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finished file">
+      <created>1593764177843</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593764177843</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,34 +144,43 @@
     <MESSAGE value="added two more methods to check static inheritance chain" />
     <MESSAGE value="added another file to the review" />
     <MESSAGE value="merge check" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge check" />
+    <MESSAGE value="finished file" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished file" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1369" height="231" key="GridCell.Tab.0.bottom" timestamp="1593741949168">
-      <screen x="29" y="23" width="1411" height="877" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1593764737710">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593764737710" />
     <state width="1369" height="231" key="GridCell.Tab.0.bottom/29.23.1411.877@29.23.1411.877" timestamp="1593741949168" />
-    <state width="1369" height="231" key="GridCell.Tab.0.center" timestamp="1593741949168">
-      <screen x="29" y="23" width="1411" height="877" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1593764737709">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.center/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593764737709" />
     <state width="1369" height="231" key="GridCell.Tab.0.center/29.23.1411.877@29.23.1411.877" timestamp="1593741949168" />
-    <state width="1369" height="231" key="GridCell.Tab.0.left" timestamp="1593741949167">
-      <screen x="29" y="23" width="1411" height="877" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1593764737708">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.left/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593764737708" />
     <state width="1369" height="231" key="GridCell.Tab.0.left/29.23.1411.877@29.23.1411.877" timestamp="1593741949167" />
-    <state width="1369" height="231" key="GridCell.Tab.0.right" timestamp="1593741949168">
-      <screen x="29" y="23" width="1411" height="877" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1593764737709">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.right/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593764737709" />
     <state width="1369" height="231" key="GridCell.Tab.0.right/29.23.1411.877@29.23.1411.877" timestamp="1593741949168" />
     <state width="1361" height="1097" key="SwitcherDM" timestamp="1593762374769">
       <screen x="1680" y="-1110" width="3840" height="2160" />
     </state>
     <state width="1361" height="1097" key="SwitcherDM/1680.-1110.3840.2160/0.0.1680.1050@1680.-1110.3840.2160" timestamp="1593762374769" />
     <state width="500" height="445" key="SwitcherDM/29.23.1411.877@29.23.1411.877" timestamp="1593741801464" />
-    <state x="363" y="213" key="Vcs.Push.Dialog.v2" timestamp="1593763778124">
+    <state x="363" y="213" key="Vcs.Push.Dialog.v2" timestamp="1593764182261">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="363" y="213" key="Vcs.Push.Dialog.v2/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593763778124" />
+    <state x="363" y="213" key="Vcs.Push.Dialog.v2/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593764182261" />
     <state x="334" y="201" key="Vcs.Push.Dialog.v2/29.23.1411.877@29.23.1411.877" timestamp="1593741125935" />
+    <state x="505" y="248" key="run.anything.popup" timestamp="1593765363284">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="248" key="run.anything.popup/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765363284" />
   </component>
 </project>
