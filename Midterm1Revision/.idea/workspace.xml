@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e3a61fc-d225-495c-917c-3fae303980d9" name="Default Changelist" comment="finished file">
+      <change afterPath="$PROJECT_DIR$/HardStaticMethodLookupWithInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HardStaticLookup.java" beforeDir="false" afterPath="$PROJECT_DIR$/HardStaticLookup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Rules.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Midterm1Revision/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Midterm1Revision/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +55,16 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.HardStaticLookup">
+  <component name="RunManager" selected="Application.HardStaticMethodLookupWithInput">
     <configuration name="HardStaticLookup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HardStaticLookup" />
+      <module name="Midterm1Revision" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HardStaticMethodLookupWithInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HardStaticMethodLookupWithInput" />
       <module name="Midterm1Revision" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,6 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HardStaticMethodLookupWithInput" />
         <item itemvalue="Application.HardStaticLookup" />
         <item itemvalue="Application.MethodLookupStatic" />
         <item itemvalue="Application.MethodLookupStaticWithStaticVar" />
@@ -157,26 +167,26 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="475" y="470" key="#xdebugger.evaluate/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765717950" />
-    <state width="1369" height="234" key="GridCell.Tab.0.bottom" timestamp="1593766482472">
-      <screen x="29" y="23" width="1411" height="877" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1593767183922">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.0.bottom/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811931" />
-    <state width="1369" height="234" key="GridCell.Tab.0.bottom/29.23.1411.877@29.23.1411.877" timestamp="1593766482472" />
-    <state width="1369" height="234" key="GridCell.Tab.0.center" timestamp="1593766482471">
-      <screen x="29" y="23" width="1411" height="877" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593767183922" />
+    <state width="1369" height="231" key="GridCell.Tab.0.bottom/29.23.1411.877@29.23.1411.877" timestamp="1593741949168" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1593767183921">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.0.center/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811929" />
-    <state width="1369" height="234" key="GridCell.Tab.0.center/29.23.1411.877@29.23.1411.877" timestamp="1593766482471" />
-    <state width="1369" height="234" key="GridCell.Tab.0.left" timestamp="1593766482470">
-      <screen x="29" y="23" width="1411" height="877" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593767183921" />
+    <state width="1369" height="231" key="GridCell.Tab.0.center/29.23.1411.877@29.23.1411.877" timestamp="1593741949168" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1593767183920">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.0.left/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811928" />
-    <state width="1369" height="234" key="GridCell.Tab.0.left/29.23.1411.877@29.23.1411.877" timestamp="1593766482470" />
-    <state width="1369" height="234" key="GridCell.Tab.0.right" timestamp="1593766482471">
-      <screen x="29" y="23" width="1411" height="877" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593767183920" />
+    <state width="1369" height="231" key="GridCell.Tab.0.left/29.23.1411.877@29.23.1411.877" timestamp="1593741949167" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1593767183921">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.0.right/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811930" />
-    <state width="1369" height="234" key="GridCell.Tab.0.right/29.23.1411.877@29.23.1411.877" timestamp="1593766482471" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593767183921" />
+    <state width="1369" height="231" key="GridCell.Tab.0.right/29.23.1411.877@29.23.1411.877" timestamp="1593741949168" />
     <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1593765811933">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -193,9 +203,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="364" key="GridCell.Tab.1.right/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811933" />
-    <state width="1361" height="1097" key="SwitcherDM" timestamp="1593762374769">
-      <screen x="1680" y="-1110" width="3840" height="2160" />
+    <state width="596" height="534" key="SwitcherDM" timestamp="1593766737871">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="596" height="534" key="SwitcherDM/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593766737871" />
     <state width="1361" height="1097" key="SwitcherDM/1680.-1110.3840.2160/0.0.1680.1050@1680.-1110.3840.2160" timestamp="1593762374769" />
     <state width="500" height="445" key="SwitcherDM/29.23.1411.877@29.23.1411.877" timestamp="1593741801464" />
     <state x="363" y="213" key="Vcs.Push.Dialog.v2" timestamp="1593765537304">
