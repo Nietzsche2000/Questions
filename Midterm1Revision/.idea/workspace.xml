@@ -19,25 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e3a61fc-d225-495c-917c-3fae303980d9" name="Default Changelist" comment="added two more methods to check static inheritance chain">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MethodLookup$A.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MethodLookup$B.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MethodLookup.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MethodLookup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MethodLookupStatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Midterm1Revision/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Midterm1Revision/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Midterm1Revision/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Midterm1Revision/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Midterm1Revision/MethodLookup$A.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Midterm1Revision/MethodLookup$B.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Midterm1Revision/MethodLookup.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Midterm1Revision/MethodLookupStaticWithStaticVar$A.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Midterm1Revision/MethodLookupStaticWithStaticVar$B.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Midterm1Revision/MethodLookupStaticWithStaticVar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Midterm1Revision/Midterm1Revision.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Midterm1Revision/Rules.txt" afterDir="false" />
+    <list default="true" id="1e3a61fc-d225-495c-917c-3fae303980d9" name="Default Changelist" comment="merge check">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MethodLookupStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/MethodLookupStatic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593741121899</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="merge check">
+      <created>1593763717433</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593763717433</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,7 +117,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added two more methods to check static inheritance chain" />
-    <option name="LAST_COMMIT_MESSAGE" value="added two more methods to check static inheritance chain" />
+    <MESSAGE value="added another file to the review" />
+    <MESSAGE value="merge check" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge check" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1369" height="231" key="GridCell.Tab.0.bottom" timestamp="1593741949168">
@@ -150,9 +143,10 @@
     </state>
     <state width="1361" height="1097" key="SwitcherDM/1680.-1110.3840.2160/0.0.1680.1050@1680.-1110.3840.2160" timestamp="1593762374769" />
     <state width="500" height="445" key="SwitcherDM/29.23.1411.877@29.23.1411.877" timestamp="1593741801464" />
-    <state x="334" y="201" key="Vcs.Push.Dialog.v2" timestamp="1593741125935">
-      <screen x="29" y="23" width="1411" height="877" />
+    <state x="363" y="213" key="Vcs.Push.Dialog.v2" timestamp="1593763778124">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="363" y="213" key="Vcs.Push.Dialog.v2/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593763778124" />
     <state x="334" y="201" key="Vcs.Push.Dialog.v2/29.23.1411.877@29.23.1411.877" timestamp="1593741125935" />
   </component>
 </project>
