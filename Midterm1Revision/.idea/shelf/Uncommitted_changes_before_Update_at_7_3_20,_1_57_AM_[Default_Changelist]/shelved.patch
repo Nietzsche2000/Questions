@@ -1,0 +1,115 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"1e3a61fc-d225-495c-917c-3fae303980d9\" name=\"Default Changelist\" comment=\"finished file\">\n      <change beforePath=\"$PROJECT_DIR$/HardStaticLookup.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/HardStaticLookup.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1e9iob48eNIJQD4XM8r0drvTC4d\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\n    <property name=\"project.structure.last.edited\" value=\"SDKs\" />\n    <property name=\"project.structure.proportion\" value=\"0.0\" />\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.lookFeel\" />\n  </component>\n  <component name=\"RunManager\" selected=\"Application.HardStaticLookup\">\n    <configuration name=\"HardStaticLookup\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"HardStaticLookup\" />\n      <module name=\"Midterm1Revision\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"MethodLookup\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"MethodLookup\" />\n      <module name=\"Midterm1Revision\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"MethodLookupStatic\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"MethodLookupStatic\" />\n      <module name=\"Midterm1Revision\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"MethodLookupStaticWithStaticVar\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"MethodLookupStaticWithStaticVar\" />\n      <module name=\"Midterm1Revision\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.HardStaticLookup\" />\n        <item itemvalue=\"Application.MethodLookupStatic\" />\n        <item itemvalue=\"Application.MethodLookupStaticWithStaticVar\" />\n        <item itemvalue=\"Application.MethodLookup\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SvnConfiguration\">\n    <configuration />\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"1e3a61fc-d225-495c-917c-3fae303980d9\" name=\"Default Changelist\" comment=\"\" />\n      <created>1593740384575</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1593740384575</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"added two more methods to check static inheritance chain\">\n      <created>1593741121899</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1593741121899</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"merge check\">\n      <created>1593763717433</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1593763717433</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"finished file\">\n      <created>1593764177843</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1593764177843</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"finished file\">\n      <created>1593765528210</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1593765528210</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"5\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"added two more methods to check static inheritance chain\" />\n    <MESSAGE value=\"added another file to the review\" />\n    <MESSAGE value=\"merge check\" />\n    <MESSAGE value=\"finished file\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"finished file\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"475\" y=\"470\" key=\"#xdebugger.evaluate\" timestamp=\"1593765717950\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state x=\"475\" y=\"470\" key=\"#xdebugger.evaluate/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593765717950\" />\n    <state width=\"1638\" height=\"364\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1593765811931\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state width=\"1638\" height=\"364\" key=\"GridCell.Tab.0.bottom/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593765811931\" />\n    <state width=\"1369\" height=\"231\" key=\"GridCell.Tab.0.bottom/29.23.1411.877@29.23.1411.877\" timestamp=\"1593741949168\" />\n    <state width=\"1638\" height=\"364\" key=\"GridCell.Tab.0.center\" timestamp=\"1593765811929\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state width=\"1638\" height=\"364\" key=\"GridCell.Tab.0.center/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593765811929\" />\n    <state width=\"1369\" height=\"231\" key=\"GridCell.Tab.0.center/29.23.1411.877@29.23.1411.877\" timestamp=\"1593741949168\" />\n    <state width=\"1638\" height=\"364\" key=\"GridCell.Tab.0.left\" timestamp=\"1593765811928\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state width=\"1638\" height=\"364\" key=\"GridCell.Tab.0.left/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593765811928\" />\n    <state width=\"1369\" height=\"231\" key=\"GridCell.Tab.0.left/29.23.1411.877@29.23.1411.877\" timestamp=\"1593741949167\" />\n    <state width=\"1638\" height=\"364\" key=\"GridCell.Tab.0.right\" timestamp=\"1593765811930\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state width=\"1638\" height=\"364\" key=\"GridCell.Tab.0.right/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593765811930\" />\n    <state width=\"1369\" height=\"231\" key=\"GridCell.Tab.0.right/29.23.1411.877@29.23.1411.877\" timestamp=\"1593741949168\" />\n    <state width=\"1638\" height=\"364\" key=\"GridCell.Tab.1.bottom\" timestamp=\"1593765811933\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state width=\"1638\" height=\"364\" key=\"GridCell.Tab.1.bottom/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593765811933\" />\n    <state width=\"1638\" height=\"364\" key=\"GridCell.Tab.1.center\" timestamp=\"1593765811932\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state width=\"1638\" height=\"364\" key=\"GridCell.Tab.1.center/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593765811932\" />\n    <state width=\"1638\" height=\"364\" key=\"GridCell.Tab.1.left\" timestamp=\"1593765811931\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state width=\"1638\" height=\"364\" key=\"GridCell.Tab.1.left/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593765811931\" />\n    <state width=\"1638\" height=\"364\" key=\"GridCell.Tab.1.right\" timestamp=\"1593765811933\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state width=\"1638\" height=\"364\" key=\"GridCell.Tab.1.right/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593765811933\" />\n    <state width=\"1361\" height=\"1097\" key=\"SwitcherDM\" timestamp=\"1593762374769\">\n      <screen x=\"1680\" y=\"-1110\" width=\"3840\" height=\"2160\" />\n    </state>\n    <state width=\"1361\" height=\"1097\" key=\"SwitcherDM/1680.-1110.3840.2160/0.0.1680.1050@1680.-1110.3840.2160\" timestamp=\"1593762374769\" />\n    <state width=\"500\" height=\"445\" key=\"SwitcherDM/29.23.1411.877@29.23.1411.877\" timestamp=\"1593741801464\" />\n    <state x=\"363\" y=\"213\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1593765537304\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state x=\"363\" y=\"213\" key=\"Vcs.Push.Dialog.v2/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593765537304\" />\n    <state x=\"334\" y=\"201\" key=\"Vcs.Push.Dialog.v2/29.23.1411.877@29.23.1411.877\" timestamp=\"1593741125935\" />\n    <state x=\"505\" y=\"248\" key=\"run.anything.popup\" timestamp=\"1593765363284\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state x=\"505\" y=\"248\" key=\"run.anything.popup/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593765363284\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\n          <url>file://$PROJECT_DIR$/HardStaticLookup.java</url>\n          <line>144</line>\n          <option name=\"timeStamp\" value=\"1\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision a982f9f1be42156e4a2d24efc8f4002e57082740)
++++ .idea/workspace.xml	(date 1593766212547)
+@@ -19,9 +19,7 @@
+     <select />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="1e3a61fc-d225-495c-917c-3fae303980d9" name="Default Changelist" comment="finished file">
+-      <change beforePath="$PROJECT_DIR$/HardStaticLookup.java" beforeDir="false" afterPath="$PROJECT_DIR$/HardStaticLookup.java" afterDir="false" />
+-    </list>
++    <list default="true" id="1e3a61fc-d225-495c-917c-3fae303980d9" name="Default Changelist" comment="most recent add" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -129,7 +127,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1593765528210</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="most recent add">
++      <created>1593766146489</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1593766146489</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -149,58 +154,59 @@
+     <MESSAGE value="added another file to the review" />
+     <MESSAGE value="merge check" />
+     <MESSAGE value="finished file" />
+-    <option name="LAST_COMMIT_MESSAGE" value="finished file" />
++    <MESSAGE value="most recent add" />
++    <option name="LAST_COMMIT_MESSAGE" value="most recent add" />
+   </component>
+   <component name="WindowStateProjectService">
+     <state x="475" y="470" key="#xdebugger.evaluate" timestamp="1593765717950">
+       <screen x="0" y="0" width="1680" height="1050" />
+     </state>
+     <state x="475" y="470" key="#xdebugger.evaluate/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765717950" />
+-    <state width="1638" height="364" key="GridCell.Tab.0.bottom" timestamp="1593765811931">
++    <state width="1638" height="364" key="GridCell.Tab.0.bottom" timestamp="1593766212519">
+       <screen x="0" y="0" width="1680" height="1050" />
+     </state>
+-    <state width="1638" height="364" key="GridCell.Tab.0.bottom/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811931" />
++    <state width="1638" height="364" key="GridCell.Tab.0.bottom/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593766212519" />
+     <state width="1369" height="231" key="GridCell.Tab.0.bottom/29.23.1411.877@29.23.1411.877" timestamp="1593741949168" />
+-    <state width="1638" height="364" key="GridCell.Tab.0.center" timestamp="1593765811929">
++    <state width="1638" height="364" key="GridCell.Tab.0.center" timestamp="1593766212517">
+       <screen x="0" y="0" width="1680" height="1050" />
+     </state>
+-    <state width="1638" height="364" key="GridCell.Tab.0.center/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811929" />
++    <state width="1638" height="364" key="GridCell.Tab.0.center/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593766212517" />
+     <state width="1369" height="231" key="GridCell.Tab.0.center/29.23.1411.877@29.23.1411.877" timestamp="1593741949168" />
+-    <state width="1638" height="364" key="GridCell.Tab.0.left" timestamp="1593765811928">
++    <state width="1638" height="364" key="GridCell.Tab.0.left" timestamp="1593766212517">
+       <screen x="0" y="0" width="1680" height="1050" />
+     </state>
+-    <state width="1638" height="364" key="GridCell.Tab.0.left/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811928" />
++    <state width="1638" height="364" key="GridCell.Tab.0.left/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593766212517" />
+     <state width="1369" height="231" key="GridCell.Tab.0.left/29.23.1411.877@29.23.1411.877" timestamp="1593741949167" />
+-    <state width="1638" height="364" key="GridCell.Tab.0.right" timestamp="1593765811930">
++    <state width="1638" height="364" key="GridCell.Tab.0.right" timestamp="1593766212518">
+       <screen x="0" y="0" width="1680" height="1050" />
+     </state>
+-    <state width="1638" height="364" key="GridCell.Tab.0.right/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811930" />
++    <state width="1638" height="364" key="GridCell.Tab.0.right/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593766212518" />
+     <state width="1369" height="231" key="GridCell.Tab.0.right/29.23.1411.877@29.23.1411.877" timestamp="1593741949168" />
+-    <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1593765811933">
++    <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1593766212521">
+       <screen x="0" y="0" width="1680" height="1050" />
+     </state>
+-    <state width="1638" height="364" key="GridCell.Tab.1.bottom/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811933" />
+-    <state width="1638" height="364" key="GridCell.Tab.1.center" timestamp="1593765811932">
++    <state width="1638" height="364" key="GridCell.Tab.1.bottom/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593766212521" />
++    <state width="1638" height="364" key="GridCell.Tab.1.center" timestamp="1593766212520">
+       <screen x="0" y="0" width="1680" height="1050" />
+     </state>
+-    <state width="1638" height="364" key="GridCell.Tab.1.center/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811932" />
+-    <state width="1638" height="364" key="GridCell.Tab.1.left" timestamp="1593765811931">
++    <state width="1638" height="364" key="GridCell.Tab.1.center/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593766212520" />
++    <state width="1638" height="364" key="GridCell.Tab.1.left" timestamp="1593766212519">
+       <screen x="0" y="0" width="1680" height="1050" />
+     </state>
+-    <state width="1638" height="364" key="GridCell.Tab.1.left/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811931" />
+-    <state width="1638" height="364" key="GridCell.Tab.1.right" timestamp="1593765811933">
++    <state width="1638" height="364" key="GridCell.Tab.1.left/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593766212519" />
++    <state width="1638" height="364" key="GridCell.Tab.1.right" timestamp="1593766212520">
+       <screen x="0" y="0" width="1680" height="1050" />
+     </state>
+-    <state width="1638" height="364" key="GridCell.Tab.1.right/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811933" />
++    <state width="1638" height="364" key="GridCell.Tab.1.right/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593766212520" />
+     <state width="1361" height="1097" key="SwitcherDM" timestamp="1593762374769">
+       <screen x="1680" y="-1110" width="3840" height="2160" />
+     </state>
+     <state width="1361" height="1097" key="SwitcherDM/1680.-1110.3840.2160/0.0.1680.1050@1680.-1110.3840.2160" timestamp="1593762374769" />
+     <state width="500" height="445" key="SwitcherDM/29.23.1411.877@29.23.1411.877" timestamp="1593741801464" />
+-    <state x="363" y="213" key="Vcs.Push.Dialog.v2" timestamp="1593765537304">
++    <state x="363" y="213" key="Vcs.Push.Dialog.v2" timestamp="1593766150393">
+       <screen x="0" y="0" width="1680" height="1050" />
+     </state>
+-    <state x="363" y="213" key="Vcs.Push.Dialog.v2/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765537304" />
++    <state x="363" y="213" key="Vcs.Push.Dialog.v2/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593766150393" />
+     <state x="334" y="201" key="Vcs.Push.Dialog.v2/29.23.1411.877@29.23.1411.877" timestamp="1593741125935" />
+     <state x="505" y="248" key="run.anything.popup" timestamp="1593765363284">
+       <screen x="0" y="0" width="1680" height="1050" />
