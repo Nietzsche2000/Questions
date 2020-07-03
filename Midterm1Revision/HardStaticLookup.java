@@ -22,7 +22,7 @@ public class HardStaticLookup {
         }
 
         public static void PA(int x, int y){
-            System.out.println(var1 + ", " + var2);
+            System.out.println(B.getterVar1() + ", " + B.getterVar2());
             System.out.println("I am method PA from class A. (2 input)");
         }
     }
@@ -39,6 +39,14 @@ public class HardStaticLookup {
         public static void P(int x, int y){
             System.out.println(var1 + ", " + var2);
             System.out.println("I am in P of class B. (2 input)");
+        }
+
+        public static int getterVar1(){
+            return var1;
+        }
+
+        public static int getterVar2(){
+            return var2;
         }
 
     }

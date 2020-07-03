@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e3a61fc-d225-495c-917c-3fae303980d9" name="Default Changelist" comment="finished file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HardStaticLookup.java" beforeDir="false" afterPath="$PROJECT_DIR$/HardStaticLookup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,26 +157,26 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="475" y="470" key="#xdebugger.evaluate/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765717950" />
-    <state width="1638" height="364" key="GridCell.Tab.0.bottom" timestamp="1593765811931">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1369" height="234" key="GridCell.Tab.0.bottom" timestamp="1593766482472">
+      <screen x="29" y="23" width="1411" height="877" />
     </state>
     <state width="1638" height="364" key="GridCell.Tab.0.bottom/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811931" />
-    <state width="1369" height="231" key="GridCell.Tab.0.bottom/29.23.1411.877@29.23.1411.877" timestamp="1593741949168" />
-    <state width="1638" height="364" key="GridCell.Tab.0.center" timestamp="1593765811929">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1369" height="234" key="GridCell.Tab.0.bottom/29.23.1411.877@29.23.1411.877" timestamp="1593766482472" />
+    <state width="1369" height="234" key="GridCell.Tab.0.center" timestamp="1593766482471">
+      <screen x="29" y="23" width="1411" height="877" />
     </state>
     <state width="1638" height="364" key="GridCell.Tab.0.center/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811929" />
-    <state width="1369" height="231" key="GridCell.Tab.0.center/29.23.1411.877@29.23.1411.877" timestamp="1593741949168" />
-    <state width="1638" height="364" key="GridCell.Tab.0.left" timestamp="1593765811928">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1369" height="234" key="GridCell.Tab.0.center/29.23.1411.877@29.23.1411.877" timestamp="1593766482471" />
+    <state width="1369" height="234" key="GridCell.Tab.0.left" timestamp="1593766482470">
+      <screen x="29" y="23" width="1411" height="877" />
     </state>
     <state width="1638" height="364" key="GridCell.Tab.0.left/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811928" />
-    <state width="1369" height="231" key="GridCell.Tab.0.left/29.23.1411.877@29.23.1411.877" timestamp="1593741949167" />
-    <state width="1638" height="364" key="GridCell.Tab.0.right" timestamp="1593765811930">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1369" height="234" key="GridCell.Tab.0.left/29.23.1411.877@29.23.1411.877" timestamp="1593766482470" />
+    <state width="1369" height="234" key="GridCell.Tab.0.right" timestamp="1593766482471">
+      <screen x="29" y="23" width="1411" height="877" />
     </state>
     <state width="1638" height="364" key="GridCell.Tab.0.right/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811930" />
-    <state width="1369" height="231" key="GridCell.Tab.0.right/29.23.1411.877@29.23.1411.877" timestamp="1593741949168" />
+    <state width="1369" height="234" key="GridCell.Tab.0.right/29.23.1411.877@29.23.1411.877" timestamp="1593766482471" />
     <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1593765811933">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -212,7 +213,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/HardStaticLookup.java</url>
-          <line>144</line>
+          <line>152</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
