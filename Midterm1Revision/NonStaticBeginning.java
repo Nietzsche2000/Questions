@@ -132,7 +132,8 @@ public class NonStaticBeginning {
 //        t_t.m1(o_t); // m1 --> T (Object) ... 100
 //        t_t.m1(t_t); // m1 --> T (T)
 //        t_t.m1(t_tl); // m1 --> T (T);
-        t_t.m1(tl_tl); //
+//        t_t.m1(tl_tl); // m1 --> T (TL)
+        t_tl.m1(t_t); //
 
 
 
