@@ -9,8 +9,10 @@
 	(e) DLList
 	(f) AList
 	(g) 2d arrays
-(5) Casting
+(5) Casting -- Not in scope for m1
+	() Ask what am I allow to cast
 (6) Polymorphism
 (7) Runtime
+	(7a) runtime with loops that weird
 (8) Git
 (9) Runtime vs Compile time errors.
