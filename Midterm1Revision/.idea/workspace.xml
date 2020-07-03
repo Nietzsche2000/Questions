@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e3a61fc-d225-495c-917c-3fae303980d9" name="Default Changelist" comment="verified hard static method lookup.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1e3a61fc-d225-495c-917c-3fae303980d9" name="Default Changelist" comment=".class commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593766595242</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=".class commit">
+      <created>1593772297973</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593772297973</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,7 +162,8 @@
     <MESSAGE value="merge check" />
     <MESSAGE value="finished file" />
     <MESSAGE value="verified hard static method lookup." />
-    <option name="LAST_COMMIT_MESSAGE" value="verified hard static method lookup." />
+    <MESSAGE value=".class commit" />
+    <option name="LAST_COMMIT_MESSAGE" value=".class commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="475" y="470" key="#xdebugger.evaluate" timestamp="1593765717950">
@@ -210,10 +216,10 @@
     </state>
     <state x="363" y="213" key="Vcs.Push.Dialog.v2/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765537304" />
     <state x="334" y="201" key="Vcs.Push.Dialog.v2/29.23.1411.877@29.23.1411.877" timestamp="1593766599107" />
-    <state x="522" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593772266417">
+    <state x="522" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593772309967">
       <screen x="29" y="23" width="1411" height="877" />
     </state>
-    <state x="522" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/29.23.1411.877@29.23.1411.877" timestamp="1593772266417" />
+    <state x="522" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/29.23.1411.877@29.23.1411.877" timestamp="1593772309967" />
     <state x="505" y="248" key="run.anything.popup" timestamp="1593765363284">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
