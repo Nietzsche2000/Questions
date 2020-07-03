@@ -166,7 +166,10 @@ public class NonStaticBeginning {
 //        t_tl.m1(tll_tll); // m1 --> TL (TL)
 //        tl_tll.m1(t_t); // m1 --> TLL (T)
 //        t_tlr.m1(NSB); // m1 --> TLR (Object)
-        tr_tr.m1(tr_tr); // m1 --> T (T)
+//        tr_tr.m1(tr_tr); // m1 --> NSB (T)
+//        tl_tlr.m1(tr_tr); // m1 --> NSB (T)
+//        tl_tlr.m1(t_tlr); // m1 --> TLR (T)
+//        tl_tlr.m1(tlr); // m1 --> TLR (TLR)
 
 
 //        T JUNK1 = ((TLR) t_tlr).new TLRR();
