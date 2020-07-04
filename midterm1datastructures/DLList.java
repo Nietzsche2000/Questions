@@ -88,6 +88,42 @@ public class DLList<T1> extends Object {
         return  lostNode.item;
     }
 
+    public T1 removeAtFast(int index) {
+        int currentIndex = -1;
+        Node currentNode = this.sentinel;
+        T1 removedItem = null;
+        int decisionPoint = this.listSize() / 2;
+        if (index >= this.listSize() || index < 0) {
+            return null;
+        }
+        // then I want to use the prev
+        else if (index >= decisionPoint) {
+            currentIndex = this.listSize() - 1;
+            while (currentIndex != index) {
+                currentNode = currentNode.prev;
+                currentIndex -= 1;
+            }
+            removedItem = (T1) currentNode.prev.item;
+            currentNode.prev.prev.next = currentNode;
+            currentNode.prev = currentNode.prev.prev;
+            this.size -= 1;
+            return removedItem;
+        }
+        // then I want to use the next
+        else {
+            currentIndex = 0;
+            while (currentIndex != index) {
+                currentNode = currentNode.next;
+                currentIndex += 1;
+            }
+            removedItem = (T1) currentNode.next.item;
+            currentNode.next.next.prev = currentNode;
+            currentNode.next = currentNode.next.next;
+            this.size -= 1;
+            return removedItem;
+        }
+    }
+
     public int listSize() {
         return this.size;
     }
@@ -123,18 +159,30 @@ public class DLList<T1> extends Object {
     }
 
     public T1 get(int index) {
-        Node<T1> currentNode = this.sentinel;
-        int decisionPoint = (this.listSize() / 2);
-        if (this.listSize() <= 0 || this.listSize() >= index) {
+        int currentIndex = -1;
+        Node currentNode = this.sentinel;
+        if (index >= this.listSize() || index < 0) {
             return null;
         }
-        // then search the back
-        if (index >= decisionPoint) {
-            while (index != decisionPoint)
+        // here I want to scale the back end
+        else if (index >= (this.listSize() / 2)) {
+            currentIndex = this.listSize();
+            while (currentIndex != index) {
+                currentNode = currentNode.prev;
+                currentIndex -= 1;
+            }
+            return (T1) currentNode.item;
         }
+        // here I want to scale to the front
         else {
-
+            currentIndex = -1;
+            while (currentIndex != index) {
+                currentNode = currentNode.next;
+                currentIndex += 1;
+            }
+            return (T1) currentNode.item;
         }
     }
+
 
 }
