@@ -7,3 +7,6 @@
 13. Overriding instance classes.
 14. Covariant question: how to instantiate line 32?
 15. How do generics broken program when I do not specify the type of the of the object inside the class. --> look at file weirdgenerics.java
+
+--Ryan
+16. In previous classes they said that they would provide the underlying code for data structures on trees so that we understand in coding questions how to get the "branches" or something what are those data structures and how will they be provided?
