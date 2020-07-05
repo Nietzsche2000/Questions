@@ -170,9 +170,9 @@ public class NonStaticBeginning {
 //        tl_tlr.m1(tr_tr); // m1 --> NSB (T)
 //        tl_tlr.m1(t_tlr); // m1 --> TLR (T)
 //        tl_tlr.m1(tlr); // m1 --> TLR (TLR)
-
-
-
+//
+//
+//
 //        T JUNK1 = ((TLR) t_tlr).new TLRR();
 //        TLR tt = NSB.new TLR();
 //        TLR.TLRR ttt = tt.new TLRR();
