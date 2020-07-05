@@ -236,5 +236,28 @@ public class DLList<T> {
         return node;
     }
 
+    /** Destructive doubling of list */
+    public void duplicate(){
+        Node p = sentinel.next;
+        while(p != sentinel){
+            Node copy = new Node(p.item, p, p.next);
+            p.next = copy;
+            copy.next.prev = copy;
+            p = p.next.next;
+        }
+        size *= 2;
+    }
+
+    /** Reverse without mutation */
+    public DLList<T> reverseNoM(){
+        DLList<T> newList = reverseNoMHelper(sentinel);
+        return newList;
+    }
+
+    /** Helper method for reverseNoM */
+    private DLList<T> reverseNoMHelper(Node p){
+        if(p)
+    }
+
 
 }
