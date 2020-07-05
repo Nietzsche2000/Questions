@@ -16,12 +16,12 @@ public class InnerMethodLookup {
     public static class B extends A {
 
         public void one(){
-            System.out.println("I am in class A method one.");
+            System.out.println("I am in class B method one.");
             two1();
         }
 
         public void two1(){
-            System.out.println("I am in class A method two.");
+            System.out.println("I am in class B method two.");
         }
     }
 

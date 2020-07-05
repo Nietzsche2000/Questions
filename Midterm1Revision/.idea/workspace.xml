@@ -19,13 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e3a61fc-d225-495c-917c-3fae303980d9" name="Default Changelist" comment="done with non static but no casting 22">
-      <change afterPath="$PROJECT_DIR$/InnerMethodLookup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../midterm1datastructures/DLList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../midterm1datastructures/DLList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../midterm1datastructures/DLListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../midterm1datastructures/DLListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../midterm1datastructures/out/production/midterm1datastructures/DLList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../midterm1datastructures/out/production/midterm1datastructures/DLList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../midterm1datastructures/out/production/midterm1datastructures/DLListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../midterm1datastructures/out/production/midterm1datastructures/DLListTest.class" afterDir="false" />
+    <list default="true" id="1e3a61fc-d225-495c-917c-3fae303980d9" name="Default Changelist" comment="Added Inner Method Lookup.">
+      <change beforePath="$PROJECT_DIR$/InnerMethodLookup.java" beforeDir="false" afterPath="$PROJECT_DIR$/InnerMethodLookup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593776809575</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added Inner Method Lookup.">
+      <created>1593924199735</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1593924199735</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,7 +255,8 @@
     <MESSAGE value="monish will miss" />
     <MESSAGE value="done with non static but no casting" />
     <MESSAGE value="done with non static but no casting 22" />
-    <option name="LAST_COMMIT_MESSAGE" value="done with non static but no casting 22" />
+    <MESSAGE value="Added Inner Method Lookup." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Inner Method Lookup." />
   </component>
   <component name="WindowStateProjectService">
     <state x="653" y="238" key="#com.intellij.ide.util.MemberChooser" timestamp="1593773566593">
@@ -307,11 +310,12 @@
     <state width="1361" height="1097" key="SwitcherDM/1680.-1110.3840.2160/0.0.1680.1050@1680.-1110.3840.2160" timestamp="1593762374769" />
     <state width="500" height="445" key="SwitcherDM/29.23.1411.877@29.23.1411.877" timestamp="1593741801464" />
     <state width="501" height="447" key="SwitcherDM/30.23.1410.877@30.23.1410.877" timestamp="1593923753191" />
-    <state x="363" y="213" key="Vcs.Push.Dialog.v2" timestamp="1593776820921">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="335" y="201" key="Vcs.Push.Dialog.v2" timestamp="1593924205205">
+      <screen x="30" y="23" width="1410" height="877" />
     </state>
     <state x="363" y="213" key="Vcs.Push.Dialog.v2/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593776820921" />
     <state x="334" y="201" key="Vcs.Push.Dialog.v2/29.23.1411.877@29.23.1411.877" timestamp="1593741125935" />
+    <state x="335" y="201" key="Vcs.Push.Dialog.v2/30.23.1410.877@30.23.1410.877" timestamp="1593924205205" />
     <state x="333" y="117" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593769746021">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
