@@ -19,7 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e3a61fc-d225-495c-917c-3fae303980d9" name="Default Changelist" comment="Added Inner Method Lookup.">
+    <list default="true" id="1e3a61fc-d225-495c-917c-3fae303980d9" name="Default Changelist" comment="Fixed mistake">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InnerMethodLookup.java" beforeDir="false" afterPath="$PROJECT_DIR$/InnerMethodLookup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -227,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593924199735</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Fixed mistake">
+      <created>1593924254975</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1593924254975</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -256,66 +264,80 @@
     <MESSAGE value="done with non static but no casting" />
     <MESSAGE value="done with non static but no casting 22" />
     <MESSAGE value="Added Inner Method Lookup." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Inner Method Lookup." />
+    <MESSAGE value="Fixed mistake" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed mistake" />
   </component>
   <component name="WindowStateProjectService">
     <state x="653" y="238" key="#com.intellij.ide.util.MemberChooser" timestamp="1593773566593">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="653" y="238" key="#com.intellij.ide.util.MemberChooser/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593773566593" />
-    <state x="475" y="470" key="#xdebugger.evaluate" timestamp="1593765717950">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="966" y="165" key="#xdebugger.evaluate" timestamp="1593925868827">
+      <screen x="31" y="23" width="1409" height="877" />
     </state>
     <state x="475" y="470" key="#xdebugger.evaluate/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765717950" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1593776832140">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="966" y="165" key="#xdebugger.evaluate/31.23.1409.877@31.23.1409.877" timestamp="1593925868827" />
+    <state width="1363" height="298" key="GridCell.Tab.0.bottom" timestamp="1593925584711">
+      <screen x="31" y="23" width="1409" height="877" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.bottom/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593776832140" />
     <state width="1369" height="231" key="GridCell.Tab.0.bottom/29.23.1411.877@29.23.1411.877" timestamp="1593741949168" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1593776832139">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1363" height="234" key="GridCell.Tab.0.bottom/30.23.1410.877@30.23.1410.877" timestamp="1593924243249" />
+    <state width="1363" height="298" key="GridCell.Tab.0.bottom/31.23.1409.877@31.23.1409.877" timestamp="1593925584711" />
+    <state width="1363" height="298" key="GridCell.Tab.0.center" timestamp="1593925584710">
+      <screen x="31" y="23" width="1409" height="877" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.center/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593776832139" />
     <state width="1369" height="231" key="GridCell.Tab.0.center/29.23.1411.877@29.23.1411.877" timestamp="1593741949168" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1593776832138">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1363" height="234" key="GridCell.Tab.0.center/30.23.1410.877@30.23.1410.877" timestamp="1593924243248" />
+    <state width="1363" height="298" key="GridCell.Tab.0.center/31.23.1409.877@31.23.1409.877" timestamp="1593925584710" />
+    <state width="1363" height="298" key="GridCell.Tab.0.left" timestamp="1593925584710">
+      <screen x="31" y="23" width="1409" height="877" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.left/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593776832138" />
     <state width="1369" height="231" key="GridCell.Tab.0.left/29.23.1411.877@29.23.1411.877" timestamp="1593741949167" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1593776832139">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1363" height="234" key="GridCell.Tab.0.left/30.23.1410.877@30.23.1410.877" timestamp="1593924243248" />
+    <state width="1363" height="298" key="GridCell.Tab.0.left/31.23.1409.877@31.23.1409.877" timestamp="1593925584710" />
+    <state width="1363" height="298" key="GridCell.Tab.0.right" timestamp="1593925584710">
+      <screen x="31" y="23" width="1409" height="877" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.right/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593776832139" />
     <state width="1369" height="231" key="GridCell.Tab.0.right/29.23.1411.877@29.23.1411.877" timestamp="1593741949168" />
-    <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1593765811933">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1363" height="234" key="GridCell.Tab.0.right/30.23.1410.877@30.23.1410.877" timestamp="1593924243248" />
+    <state width="1363" height="298" key="GridCell.Tab.0.right/31.23.1409.877@31.23.1409.877" timestamp="1593925584710" />
+    <state width="1363" height="298" key="GridCell.Tab.1.bottom" timestamp="1593925584712">
+      <screen x="31" y="23" width="1409" height="877" />
     </state>
     <state width="1638" height="364" key="GridCell.Tab.1.bottom/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811933" />
-    <state width="1638" height="364" key="GridCell.Tab.1.center" timestamp="1593765811932">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1363" height="298" key="GridCell.Tab.1.bottom/31.23.1409.877@31.23.1409.877" timestamp="1593925584712" />
+    <state width="1363" height="298" key="GridCell.Tab.1.center" timestamp="1593925584712">
+      <screen x="31" y="23" width="1409" height="877" />
     </state>
     <state width="1638" height="364" key="GridCell.Tab.1.center/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811932" />
-    <state width="1638" height="364" key="GridCell.Tab.1.left" timestamp="1593765811931">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1363" height="298" key="GridCell.Tab.1.center/31.23.1409.877@31.23.1409.877" timestamp="1593925584712" />
+    <state width="1363" height="298" key="GridCell.Tab.1.left" timestamp="1593925584711">
+      <screen x="31" y="23" width="1409" height="877" />
     </state>
     <state width="1638" height="364" key="GridCell.Tab.1.left/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811931" />
-    <state width="1638" height="364" key="GridCell.Tab.1.right" timestamp="1593765811933">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1363" height="298" key="GridCell.Tab.1.left/31.23.1409.877@31.23.1409.877" timestamp="1593925584711" />
+    <state width="1363" height="298" key="GridCell.Tab.1.right" timestamp="1593925584712">
+      <screen x="31" y="23" width="1409" height="877" />
     </state>
     <state width="1638" height="364" key="GridCell.Tab.1.right/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811933" />
-    <state width="501" height="447" key="SwitcherDM" timestamp="1593923753191">
+    <state width="1363" height="298" key="GridCell.Tab.1.right/31.23.1409.877@31.23.1409.877" timestamp="1593925584712" />
+    <state width="501" height="447" key="SwitcherDM" timestamp="1593924272933">
       <screen x="30" y="23" width="1410" height="877" />
     </state>
     <state width="596" height="534" key="SwitcherDM/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593768586352" />
     <state width="1361" height="1097" key="SwitcherDM/1680.-1110.3840.2160/0.0.1680.1050@1680.-1110.3840.2160" timestamp="1593762374769" />
     <state width="500" height="445" key="SwitcherDM/29.23.1411.877@29.23.1411.877" timestamp="1593741801464" />
-    <state width="501" height="447" key="SwitcherDM/30.23.1410.877@30.23.1410.877" timestamp="1593923753191" />
-    <state x="335" y="201" key="Vcs.Push.Dialog.v2" timestamp="1593924205205">
+    <state width="501" height="447" key="SwitcherDM/30.23.1410.877@30.23.1410.877" timestamp="1593924272933" />
+    <state x="335" y="201" key="Vcs.Push.Dialog.v2" timestamp="1593924258311">
       <screen x="30" y="23" width="1410" height="877" />
     </state>
     <state x="363" y="213" key="Vcs.Push.Dialog.v2/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593776820921" />
     <state x="334" y="201" key="Vcs.Push.Dialog.v2/29.23.1411.877@29.23.1411.877" timestamp="1593741125935" />
-    <state x="335" y="201" key="Vcs.Push.Dialog.v2/30.23.1410.877@30.23.1410.877" timestamp="1593924205205" />
+    <state x="335" y="201" key="Vcs.Push.Dialog.v2/30.23.1410.877@30.23.1410.877" timestamp="1593924258311" />
     <state x="333" y="117" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593769746021">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -336,6 +358,11 @@
           <url>file://$PROJECT_DIR$/HardStaticLookup.java</url>
           <line>152</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/InnerMethodLookup.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -4,12 +4,13 @@ public class InnerMethodLookup {
 
         public void one(){
             System.out.println("I am in class A method one.");
-            A a = new A();
+            A a = new B();
             two(a);
         }
 
-        public void two(A a){
+        public void two(A b){
             System.out.println("I am in class A method two.");
+            b.one();
         }
     }
 
@@ -17,10 +18,11 @@ public class InnerMethodLookup {
 
         public void one(){
             System.out.println("I am in class B method one.");
-            two1();
+            B a = new B();
+            two(a);
         }
 
-        public void two1(){
+        public void two(B b){
             System.out.println("I am in class B method two.");
         }
     }
