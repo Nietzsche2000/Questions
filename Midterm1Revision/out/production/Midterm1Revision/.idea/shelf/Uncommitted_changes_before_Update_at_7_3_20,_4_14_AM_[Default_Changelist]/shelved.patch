@@ -1,0 +1,124 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"1e3a61fc-d225-495c-917c-3fae303980d9\" name=\"Default Changelist\" comment=\"new changes\">\n      <change beforePath=\"$PROJECT_DIR$/NonStaticBeginning.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/NonStaticBeginning.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1e9iob48eNIJQD4XM8r0drvTC4d\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\n    <property name=\"project.structure.last.edited\" value=\"SDKs\" />\n    <property name=\"project.structure.proportion\" value=\"0.0\" />\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.lookFeel\" />\n  </component>\n  <component name=\"RunAnythingCache\">\n    <option name=\"myCommands\">\n      <command value=\"HardStaticMethodLookupWithInput\" />\n      <command value=\"NonStaticBeginning\" />\n    </option>\n  </component>\n  <component name=\"RunManager\" selected=\"Application.NonStaticBeginning\">\n    <configuration name=\"HardStaticLookup\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"HardStaticLookup\" />\n      <module name=\"Midterm1Revision\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"HardStaticMethodLookupWithInput\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"HardStaticMethodLookupWithInput\" />\n      <module name=\"Midterm1Revision\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"MethodLookupStatic\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"MethodLookupStatic\" />\n      <module name=\"Midterm1Revision\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"MethodLookupStaticWithStaticVar\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"MethodLookupStaticWithStaticVar\" />\n      <module name=\"Midterm1Revision\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"NonStaticBeginning\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"NonStaticBeginning\" />\n      <module name=\"Midterm1Revision\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.NonStaticBeginning\" />\n        <item itemvalue=\"Application.HardStaticMethodLookupWithInput\" />\n        <item itemvalue=\"Application.HardStaticLookup\" />\n        <item itemvalue=\"Application.MethodLookupStatic\" />\n        <item itemvalue=\"Application.MethodLookupStaticWithStaticVar\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SvnConfiguration\">\n    <configuration />\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"1e3a61fc-d225-495c-917c-3fae303980d9\" name=\"Default Changelist\" comment=\"\" />\n      <created>1593740384575</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1593740384575</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"added two more methods to check static inheritance chain\">\n      <created>1593741121899</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1593741121899</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"merge check\">\n      <created>1593763717433</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1593763717433</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"finished file\">\n      <created>1593764177843</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1593764177843</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"finished file\">\n      <created>1593765528210</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1593765528210</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"new stuff\">\n      <created>1593768018106</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1593768018106</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"done with static\">\n      <created>1593768496340</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1593768496340</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"new stuff\">\n      <created>1593772142631</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1593772142631</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"new stuff\">\n      <created>1593772627081</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1593772627081</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"try\">\n      <created>1593772731050</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1593772731050</updated>\n    </task>\n    <task id=\"LOCAL-00010\" summary=\"new changes\">\n      <created>1593773691925</created>\n      <option name=\"number\" value=\"00010\" />\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1593773691925</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"11\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"added two more methods to check static inheritance chain\" />\n    <MESSAGE value=\"added another file to the review\" />\n    <MESSAGE value=\"merge check\" />\n    <MESSAGE value=\"finished file\" />\n    <MESSAGE value=\"done with static\" />\n    <MESSAGE value=\"new stuff\" />\n    <MESSAGE value=\"try\" />\n    <MESSAGE value=\"new changes\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"new changes\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"653\" y=\"238\" key=\"#com.intellij.ide.util.MemberChooser\" timestamp=\"1593773566593\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state x=\"653\" y=\"238\" key=\"#com.intellij.ide.util.MemberChooser/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593773566593\" />\n    <state x=\"475\" y=\"470\" key=\"#xdebugger.evaluate\" timestamp=\"1593765717950\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state x=\"475\" y=\"470\" key=\"#xdebugger.evaluate/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593765717950\" />\n    <state width=\"1638\" height=\"295\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1593773739267\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state width=\"1638\" height=\"295\" key=\"GridCell.Tab.0.bottom/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593773739267\" />\n    <state width=\"1369\" height=\"231\" key=\"GridCell.Tab.0.bottom/29.23.1411.877@29.23.1411.877\" timestamp=\"1593741949168\" />\n    <state width=\"1638\" height=\"295\" key=\"GridCell.Tab.0.center\" timestamp=\"1593773739265\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state width=\"1638\" height=\"295\" key=\"GridCell.Tab.0.center/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593773739265\" />\n    <state width=\"1369\" height=\"231\" key=\"GridCell.Tab.0.center/29.23.1411.877@29.23.1411.877\" timestamp=\"1593741949168\" />\n    <state width=\"1638\" height=\"295\" key=\"GridCell.Tab.0.left\" timestamp=\"1593773739265\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state width=\"1638\" height=\"295\" key=\"GridCell.Tab.0.left/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593773739265\" />\n    <state width=\"1369\" height=\"231\" key=\"GridCell.Tab.0.left/29.23.1411.877@29.23.1411.877\" timestamp=\"1593741949167\" />\n    <state width=\"1638\" height=\"295\" key=\"GridCell.Tab.0.right\" timestamp=\"1593773739266\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state width=\"1638\" height=\"295\" key=\"GridCell.Tab.0.right/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593773739266\" />\n    <state width=\"1369\" height=\"231\" key=\"GridCell.Tab.0.right/29.23.1411.877@29.23.1411.877\" timestamp=\"1593741949168\" />\n    <state width=\"1638\" height=\"364\" key=\"GridCell.Tab.1.bottom\" timestamp=\"1593765811933\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state width=\"1638\" height=\"364\" key=\"GridCell.Tab.1.bottom/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593765811933\" />\n    <state width=\"1638\" height=\"364\" key=\"GridCell.Tab.1.center\" timestamp=\"1593765811932\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state width=\"1638\" height=\"364\" key=\"GridCell.Tab.1.center/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593765811932\" />\n    <state width=\"1638\" height=\"364\" key=\"GridCell.Tab.1.left\" timestamp=\"1593765811931\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state width=\"1638\" height=\"364\" key=\"GridCell.Tab.1.left/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593765811931\" />\n    <state width=\"1638\" height=\"364\" key=\"GridCell.Tab.1.right\" timestamp=\"1593765811933\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state width=\"1638\" height=\"364\" key=\"GridCell.Tab.1.right/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593765811933\" />\n    <state width=\"596\" height=\"534\" key=\"SwitcherDM\" timestamp=\"1593768586352\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state width=\"596\" height=\"534\" key=\"SwitcherDM/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593768586352\" />\n    <state width=\"1361\" height=\"1097\" key=\"SwitcherDM/1680.-1110.3840.2160/0.0.1680.1050@1680.-1110.3840.2160\" timestamp=\"1593762374769\" />\n    <state width=\"500\" height=\"445\" key=\"SwitcherDM/29.23.1411.877@29.23.1411.877\" timestamp=\"1593741801464\" />\n    <state x=\"363\" y=\"213\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1593773697466\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state x=\"363\" y=\"213\" key=\"Vcs.Push.Dialog.v2/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593773697466\" />\n    <state x=\"334\" y=\"201\" key=\"Vcs.Push.Dialog.v2/29.23.1411.877@29.23.1411.877\" timestamp=\"1593741125935\" />\n    <state x=\"333\" y=\"117\" key=\"com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser\" timestamp=\"1593769746021\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state x=\"333\" y=\"117\" key=\"com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593769746021\" />\n    <state x=\"628\" y=\"446\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1593772737592\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state x=\"628\" y=\"446\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593772737592\" />\n    <state x=\"505\" y=\"248\" width=\"670\" height=\"675\" key=\"run.anything.popup\" timestamp=\"1593773455905\">\n      <screen x=\"0\" y=\"0\" width=\"1680\" height=\"1050\" />\n    </state>\n    <state x=\"505\" y=\"248\" width=\"670\" height=\"675\" key=\"run.anything.popup/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050\" timestamp=\"1593773455905\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\n          <url>file://$PROJECT_DIR$/HardStaticLookup.java</url>\n          <line>152</line>\n          <option name=\"timeStamp\" value=\"1\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision ab4802f7714fefa09f599a398399ea6a6a600e45)
++++ .idea/workspace.xml	(date 1593774849963)
+@@ -19,8 +19,9 @@
+     <select />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="1e3a61fc-d225-495c-917c-3fae303980d9" name="Default Changelist" comment="new changes">
+-      <change beforePath="$PROJECT_DIR$/NonStaticBeginning.java" beforeDir="false" afterPath="$PROJECT_DIR$/NonStaticBeginning.java" afterDir="false" />
++    <list default="true" id="1e3a61fc-d225-495c-917c-3fae303980d9" name="Default Changelist" comment="try">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Midterm1Revision/NonStaticBeginning.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Midterm1Revision/NonStaticBeginning.class" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -178,19 +179,22 @@
+       <option name="project" value="LOCAL" />
+       <updated>1593772731050</updated>
+     </task>
+-    <task id="LOCAL-00010" summary="new changes">
+-      <created>1593773691925</created>
+-      <option name="number" value="00010" />
+-      <option name="presentableId" value="LOCAL-00010" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1593773691925</updated>
+-    </task>
+-    <option name="localTasksCounter" value="11" />
++    <option name="localTasksCounter" value="10" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+     <option name="TAB_STATES">
+       <map>
++        <entry key="1">
++          <value>
++            <State />
++          </value>
++        </entry>
++        <entry key="2">
++          <value>
++            <State />
++          </value>
++        </entry>
+         <entry key="MAIN">
+           <value>
+             <State />
+@@ -208,37 +212,32 @@
+     <MESSAGE value="done with static" />
+     <MESSAGE value="new stuff" />
+     <MESSAGE value="try" />
+-    <MESSAGE value="new changes" />
+-    <option name="LAST_COMMIT_MESSAGE" value="new changes" />
++    <option name="LAST_COMMIT_MESSAGE" value="try" />
+   </component>
+   <component name="WindowStateProjectService">
+-    <state x="653" y="238" key="#com.intellij.ide.util.MemberChooser" timestamp="1593773566593">
+-      <screen x="0" y="0" width="1680" height="1050" />
+-    </state>
+-    <state x="653" y="238" key="#com.intellij.ide.util.MemberChooser/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593773566593" />
+     <state x="475" y="470" key="#xdebugger.evaluate" timestamp="1593765717950">
+       <screen x="0" y="0" width="1680" height="1050" />
+     </state>
+     <state x="475" y="470" key="#xdebugger.evaluate/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765717950" />
+-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1593773739267">
++    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1593773279170">
+       <screen x="0" y="0" width="1680" height="1050" />
+     </state>
+-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593773739267" />
++    <state width="1638" height="295" key="GridCell.Tab.0.bottom/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593773279170" />
+     <state width="1369" height="231" key="GridCell.Tab.0.bottom/29.23.1411.877@29.23.1411.877" timestamp="1593741949168" />
+-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1593773739265">
++    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1593773279168">
+       <screen x="0" y="0" width="1680" height="1050" />
+     </state>
+-    <state width="1638" height="295" key="GridCell.Tab.0.center/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593773739265" />
++    <state width="1638" height="295" key="GridCell.Tab.0.center/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593773279168" />
+     <state width="1369" height="231" key="GridCell.Tab.0.center/29.23.1411.877@29.23.1411.877" timestamp="1593741949168" />
+-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1593773739265">
++    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1593773279168">
+       <screen x="0" y="0" width="1680" height="1050" />
+     </state>
+-    <state width="1638" height="295" key="GridCell.Tab.0.left/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593773739265" />
++    <state width="1638" height="295" key="GridCell.Tab.0.left/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593773279168" />
+     <state width="1369" height="231" key="GridCell.Tab.0.left/29.23.1411.877@29.23.1411.877" timestamp="1593741949167" />
+-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1593773739266">
++    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1593773279169">
+       <screen x="0" y="0" width="1680" height="1050" />
+     </state>
+-    <state width="1638" height="295" key="GridCell.Tab.0.right/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593773739266" />
++    <state width="1638" height="295" key="GridCell.Tab.0.right/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593773279169" />
+     <state width="1369" height="231" key="GridCell.Tab.0.right/29.23.1411.877@29.23.1411.877" timestamp="1593741949168" />
+     <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1593765811933">
+       <screen x="0" y="0" width="1680" height="1050" />
+@@ -262,19 +261,20 @@
+     <state width="596" height="534" key="SwitcherDM/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593768586352" />
+     <state width="1361" height="1097" key="SwitcherDM/1680.-1110.3840.2160/0.0.1680.1050@1680.-1110.3840.2160" timestamp="1593762374769" />
+     <state width="500" height="445" key="SwitcherDM/29.23.1411.877@29.23.1411.877" timestamp="1593741801464" />
+-    <state x="363" y="213" key="Vcs.Push.Dialog.v2" timestamp="1593773697466">
++    <state x="363" y="213" key="Vcs.Push.Dialog.v2" timestamp="1593772746700">
+       <screen x="0" y="0" width="1680" height="1050" />
+     </state>
+-    <state x="363" y="213" key="Vcs.Push.Dialog.v2/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593773697466" />
++    <state x="363" y="213" key="Vcs.Push.Dialog.v2/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593772746700" />
+     <state x="334" y="201" key="Vcs.Push.Dialog.v2/29.23.1411.877@29.23.1411.877" timestamp="1593741125935" />
+     <state x="333" y="117" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593769746021">
+       <screen x="0" y="0" width="1680" height="1050" />
+     </state>
+     <state x="333" y="117" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593769746021" />
+-    <state x="628" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593772737592">
+-      <screen x="0" y="0" width="1680" height="1050" />
++    <state x="556" y="396" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593774849933">
++      <screen x="29" y="23" width="1411" height="877" />
+     </state>
+     <state x="628" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593772737592" />
++    <state x="556" y="396" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/29.23.1411.877@29.23.1411.877" timestamp="1593774849933" />
+     <state x="505" y="248" width="670" height="675" key="run.anything.popup" timestamp="1593773455905">
+       <screen x="0" y="0" width="1680" height="1050" />
+     </state>

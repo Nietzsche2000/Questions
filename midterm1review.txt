@@ -15,4 +15,8 @@
 (7) Runtime
 	(7a) runtime with loops that weird
 (8) Git
+<<<<<<< HEAD
 (9) Runtime vs Compile time errors.
+=======
+(9) static v. Non static inner classes
+>>>>>>> origin/ryan
