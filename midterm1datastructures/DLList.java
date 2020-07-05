@@ -7,12 +7,14 @@ public class DLList<T1> extends Object {
         public Node<T2> next;
 
         public Node() {
+            super();
             this.item = null;
             this.prev = null;
             this.next = null;
         }
 
         public Node(T2 item, Node<T2> prev, Node<T2> next) {
+            super();
             this.item = item;
             this.prev = prev;
             this.next = next;
@@ -23,6 +25,7 @@ public class DLList<T1> extends Object {
     public int size;
 
     public DLList() {
+        super();
         this.sentinel = new Node(null, null, null);
         this.sentinel.prev = this.sentinel;
         this.sentinel.next = this.sentinel;

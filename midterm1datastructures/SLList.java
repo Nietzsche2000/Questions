@@ -5,6 +5,7 @@ public class SLList<T1> extends Object {
         public Node next;
 
         public Node(T2 item, Node<T2> next) {
+            super();
             this.item = item;
             this.next = next;
         }
@@ -14,6 +15,7 @@ public class SLList<T1> extends Object {
     public Node<T1> sentinel;
 
     public SLList() {
+        super();
         this.sentinel = new Node<T1>(null, null);
         this.sentinel.next = this.sentinel;
         this.size = 0;
