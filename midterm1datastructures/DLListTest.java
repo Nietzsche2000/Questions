@@ -158,4 +158,29 @@ public class DLListTest {
         L.duplicate();
     }
 
+    @Test
+    public void reverseTestM() {
+        DLList<Integer> L = new DLList<>();
+        int max = 5;
+        //assertTrue(L.findRecursive(0) == -1);
+        for (int i = 0; i < max; i++)
+            L.addLast(i);
+        L.reverseMT();
+        L.reverseMT();
+        for (int i = 0; i < max; i++)
+            assertTrue(L.find(i) == i);
+    }
+
+    @Test
+    public void reverseTestNoH() {
+        DLList<Integer> L = new DLList<>();
+        int max = 5;
+        //assertTrue(L.findRecursive(0) == -1);
+        for (int i = 0; i < max; i++)
+            L.addLast(i);
+        DLList<Integer> rev = L.reverseNoM();
+//        for (int i = 0; i < max; i++)
+//            assertTrue(L.find(i) == i);
+    }
+
 }

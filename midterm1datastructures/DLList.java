@@ -249,15 +249,22 @@ public class DLList<T> {
     }
 
     /** Reverse without mutation */
+    public void reverseMT(){
+        if(size == 0)
+            return;
+        T item = removeFirst();
+        reverseNoM();
+        addLast(item);
+    }
+
+    /** Reverse return with no helper */
     public DLList<T> reverseNoM(){
-        DLList<T> newList = reverseNoMHelper(sentinel);
-        return newList;
+        if(size == 0)
+            return new DLList<>();
+        T item  = removeLast();
+        DLList<T> nL = reverseNoM();
+        nL.addFirst(item);
+        addLast(item);
+        return nL;
     }
-
-    /** Helper method for reverseNoM */
-    private DLList<T> reverseNoMHelper(Node p){
-        if(p)
-    }
-
-
 }
