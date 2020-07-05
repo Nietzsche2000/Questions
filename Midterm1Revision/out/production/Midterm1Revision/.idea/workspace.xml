@@ -19,8 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e3a61fc-d225-495c-917c-3fae303980d9" name="Default Changelist" comment="finished file">
-      <change afterPath="$PROJECT_DIR$/HardStaticMethodLookupWithInput.java" afterDir="false" />
+    <list default="true" id="1e3a61fc-d225-495c-917c-3fae303980d9" name="Default Changelist" comment="done with non static but no casting 22">
+      <change afterPath="$PROJECT_DIR$/InnerMethodLookup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm1datastructures/DLList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../midterm1datastructures/DLList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm1datastructures/DLListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../midterm1datastructures/DLListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm1datastructures/out/production/midterm1datastructures/DLList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../midterm1datastructures/out/production/midterm1datastructures/DLList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm1datastructures/out/production/midterm1datastructures/DLListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../midterm1datastructures/out/production/midterm1datastructures/DLListTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +57,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.HardStaticMethodLookupWithInput">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="HardStaticMethodLookupWithInput" />
+      <command value="NonStaticBeginning" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.InnerMethodLookup">
     <configuration name="HardStaticLookup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HardStaticLookup" />
       <module name="Midterm1Revision" />
@@ -67,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodLookup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MethodLookup" />
+    <configuration name="InnerMethodLookup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InnerMethodLookup" />
       <module name="Midterm1Revision" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodLookupStaticWithStaticVar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MethodLookupStaticWithStaticVar" />
+    <configuration name="NonStaticBeginning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NonStaticBeginning" />
       <module name="Midterm1Revision" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InnerMethodLookup" />
+        <item itemvalue="Application.NonStaticBeginning" />
         <item itemvalue="Application.HardStaticMethodLookupWithInput" />
         <item itemvalue="Application.HardStaticLookup" />
         <item itemvalue="Application.MethodLookupStatic" />
-        <item itemvalue="Application.MethodLookupStaticWithStaticVar" />
-        <item itemvalue="Application.MethodLookup" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +148,84 @@
       <option name="project" value="LOCAL" />
       <updated>1593765528210</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new stuff">
+      <created>1593768018106</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593768018106</updated>
+    </task>
+    <task id="LOCAL-00006" summary="done with static">
+      <created>1593768496340</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593768496340</updated>
+    </task>
+    <task id="LOCAL-00007" summary="new stuff">
+      <created>1593772142631</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593772142631</updated>
+    </task>
+    <task id="LOCAL-00008" summary="new stuff">
+      <created>1593772627081</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593772627081</updated>
+    </task>
+    <task id="LOCAL-00009" summary="try">
+      <created>1593772731050</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593772731050</updated>
+    </task>
+    <task id="LOCAL-00010" summary="new changes">
+      <created>1593773691925</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593773691925</updated>
+    </task>
+    <task id="LOCAL-00011" summary="make fix">
+      <created>1593774076201</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1593774076201</updated>
+    </task>
+    <task id="LOCAL-00012" summary="new stuff">
+      <created>1593774835419</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1593774835419</updated>
+    </task>
+    <task id="LOCAL-00013" summary="monish will miss">
+      <created>1593774970383</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1593774970383</updated>
+    </task>
+    <task id="LOCAL-00014" summary="done with non static but no casting">
+      <created>1593775570695</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1593775570695</updated>
+    </task>
+    <task id="LOCAL-00015" summary="done with non static but no casting 22">
+      <created>1593776809575</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1593776809575</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,32 +245,44 @@
     <MESSAGE value="added another file to the review" />
     <MESSAGE value="merge check" />
     <MESSAGE value="finished file" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished file" />
+    <MESSAGE value="done with static" />
+    <MESSAGE value="try" />
+    <MESSAGE value="new changes" />
+    <MESSAGE value="make fix" />
+    <MESSAGE value="new stuff" />
+    <MESSAGE value="monish will miss" />
+    <MESSAGE value="done with non static but no casting" />
+    <MESSAGE value="done with non static but no casting 22" />
+    <option name="LAST_COMMIT_MESSAGE" value="done with non static but no casting 22" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="653" y="238" key="#com.intellij.ide.util.MemberChooser" timestamp="1593773566593">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="653" y="238" key="#com.intellij.ide.util.MemberChooser/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593773566593" />
     <state x="475" y="470" key="#xdebugger.evaluate" timestamp="1593765717950">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="475" y="470" key="#xdebugger.evaluate/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765717950" />
-    <state width="1638" height="364" key="GridCell.Tab.0.bottom" timestamp="1593765811931">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1593776832140">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.0.bottom/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811931" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593776832140" />
     <state width="1369" height="231" key="GridCell.Tab.0.bottom/29.23.1411.877@29.23.1411.877" timestamp="1593741949168" />
-    <state width="1638" height="364" key="GridCell.Tab.0.center" timestamp="1593765811929">
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1593776832139">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.0.center/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811929" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593776832139" />
     <state width="1369" height="231" key="GridCell.Tab.0.center/29.23.1411.877@29.23.1411.877" timestamp="1593741949168" />
-    <state width="1638" height="364" key="GridCell.Tab.0.left" timestamp="1593765811928">
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1593776832138">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.0.left/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811928" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593776832138" />
     <state width="1369" height="231" key="GridCell.Tab.0.left/29.23.1411.877@29.23.1411.877" timestamp="1593741949167" />
-    <state width="1638" height="364" key="GridCell.Tab.0.right" timestamp="1593765811930">
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1593776832139">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.0.right/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811930" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593776832139" />
     <state width="1369" height="231" key="GridCell.Tab.0.right/29.23.1411.877@29.23.1411.877" timestamp="1593741949168" />
     <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1593765811933">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -200,21 +300,30 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="364" key="GridCell.Tab.1.right/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765811933" />
-    <state width="596" height="534" key="SwitcherDM" timestamp="1593766737871">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="501" height="447" key="SwitcherDM" timestamp="1593923753191">
+      <screen x="30" y="23" width="1410" height="877" />
     </state>
-    <state width="596" height="534" key="SwitcherDM/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593766737871" />
+    <state width="596" height="534" key="SwitcherDM/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593768586352" />
     <state width="1361" height="1097" key="SwitcherDM/1680.-1110.3840.2160/0.0.1680.1050@1680.-1110.3840.2160" timestamp="1593762374769" />
     <state width="500" height="445" key="SwitcherDM/29.23.1411.877@29.23.1411.877" timestamp="1593741801464" />
-    <state x="363" y="213" key="Vcs.Push.Dialog.v2" timestamp="1593765537304">
+    <state width="501" height="447" key="SwitcherDM/30.23.1410.877@30.23.1410.877" timestamp="1593923753191" />
+    <state x="363" y="213" key="Vcs.Push.Dialog.v2" timestamp="1593776820921">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="363" y="213" key="Vcs.Push.Dialog.v2/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765537304" />
+    <state x="363" y="213" key="Vcs.Push.Dialog.v2/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593776820921" />
     <state x="334" y="201" key="Vcs.Push.Dialog.v2/29.23.1411.877@29.23.1411.877" timestamp="1593741125935" />
-    <state x="505" y="248" key="run.anything.popup" timestamp="1593765363284">
+    <state x="333" y="117" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593769746021">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="248" key="run.anything.popup/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593765363284" />
+    <state x="333" y="117" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593769746021" />
+    <state x="628" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593774093289">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="628" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593774093289" />
+    <state x="505" y="248" width="670" height="675" key="run.anything.popup" timestamp="1593775482018">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="248" width="670" height="675" key="run.anything.popup/1680.-1110.3840.2160/0.0.1680.1050@0.0.1680.1050" timestamp="1593775482018" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

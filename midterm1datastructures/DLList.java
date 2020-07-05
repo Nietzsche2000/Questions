@@ -267,4 +267,21 @@ public class DLList<T> {
         addLast(item);
         return nL;
     }
+
+    /** Expand by number */
+    public void expand(){
+        Node p = sentinel.next;
+        while (p != sentinel){
+            T item2 = p.item;
+            int item = (int) p.item;
+            for(int i = 0; i < item - 1; i++){
+                Node N = new Node(item2, p, p.next);
+                N.prev.next = N;
+                N.next.prev = N;
+                p = p.next;
+            }
+            p = p.next;
+        }
+    }
+
 }

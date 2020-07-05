@@ -185,4 +185,13 @@ public class DLListTest {
             assertTrue(L.find(i) == i);
     }
 
+    @Test
+    public void expandTest() {
+        DLList<Integer> L = new DLList<>();
+        int max = 4;
+        for (int i = 0; i < max; i++)
+            L.addLast(i);
+        L.expand();
+    }
+
 }
