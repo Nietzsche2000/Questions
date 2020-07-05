@@ -57,5 +57,22 @@ public class DLListTest extends Object {
         }
     }
 
+    @Test
+    public void Test05() {
+        int listSize = 10;
+        DLList<Integer> dl = new DLList<>();
+        for (int index = 0; index < listSize; index += 1) {
+            dl.addLast(index);
+        }
+        DLList<Integer> dlr = dl.reverse();
+        for (int index = 0; index < listSize; index += 1) {
+            assertTrue(dlr.getLast() == index);
+            assertTrue(dl.removeFirst() == dlr.removeLast());
+        }
+        assertTrue(dlr.getLast() == null);
+        assertTrue(dl.removeFirst() == null);
+        assertTrue(dlr.removeLast() == null);
+        int x = 0;
+    }
 }
 

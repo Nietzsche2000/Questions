@@ -6,11 +6,16 @@ public class DLList<T1> extends Object {
         public Node<T2> prev;
         public Node<T2> next;
 
+        public Node() {
+            this.item = null;
+            this.prev = null;
+            this.next = null;
+        }
+
         public Node(T2 item, Node<T2> prev, Node<T2> next) {
             this.item = item;
             this.prev = prev;
             this.next = next;
-
         }
     }
 
@@ -183,6 +188,19 @@ public class DLList<T1> extends Object {
             return (T1) currentNode.item;
         }
     }
+    // returns a non mutated copy of reversed dllist
+    public DLList<T1> reverse() {
+        DLList<T1> dlCopy = new DLList<>();
+        this.reverseHelper(this.sentinel.next, dlCopy);
+        return dlCopy;
+    }
 
+    private DLList<T1> reverseHelper(Node<T1> startNode, DLList<T1> dl) {
+        if (startNode == this.sentinel) {
+            return dl;
+        }
+        dl.addFirst(startNode.item);
+        return reverseHelper(startNode.next, dl);
+    }
 
 }
