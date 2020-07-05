@@ -179,8 +179,10 @@ public class DLListTest {
         for (int i = 0; i < max; i++)
             L.addLast(i);
         DLList<Integer> rev = L.reverseNoM();
-//        for (int i = 0; i < max; i++)
-//            assertTrue(L.find(i) == i);
+        rev = rev.reverseNoM();
+        L = rev;
+        for (int i = 0; i < max; i++)
+            assertTrue(L.find(i) == i);
     }
 
 }
