@@ -7,6 +7,7 @@ public class Fields{
 	// public String y = "Instance field y in A";
 	public static int x;
 	public int y;
+	public int A;
 
 	}
 
@@ -18,6 +19,7 @@ public class Fields{
 	// public String y = "Instance field y in B";
 	public static int x = 10;
 	public int y = 20;
+	public int z;
 
 	}
 
@@ -25,8 +27,9 @@ public class Fields{
 		A a = new A();
 		B b = new B();
 		A ab = new B();
-		// System.out.println(a.y);
+		System.out.println(a.A);
 		System.out.println(b.y);
+		System.out.println(b.z);
 		System.out.println(ab.y);
 	}
 
