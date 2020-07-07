@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c99b33ed-8169-419f-ab00-d9718c8e7496" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../hardmethodlookup/MethlookupInMethLookup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/MethlookupInMethLookup$A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/MethlookupInMethLookup$B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/MethlookupInMethLookup$C.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/MethlookupInMethLookup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/StaticMethodLookUp$A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/StaticMethodLookUp$B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/StaticMethodLookUp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/TypeDispatch$A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/TypeDispatch$B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/TypeDispatch$C.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/TypeDispatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fields$A.class" beforeDir="false" afterPath="$PROJECT_DIR$/Fields$A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fields$B.class" beforeDir="false" afterPath="$PROJECT_DIR$/Fields$B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/Fields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fields.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/staticClasses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/q5_2_copy$A.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/q5_2_copy$A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/q5_2_copy$B.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/q5_2_copy$B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/q5_2_copy$C.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/q5_2_copy$C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/q5_2_copy$D.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/q5_2_copy$D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/q5_2_copy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/q5_2_copy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/q5_2_copy2$A.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/q5_2_copy2$A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/q5_2_copy2$B.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/q5_2_copy2$B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/q5_2_copy2$C.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/q5_2_copy2$C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/q5_2_copy2$D.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/q5_2_copy2$D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/q5_2_copy2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hardmethodlookup/out/production/hardmethodlookup/q5_2_copy2.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1eL3o40SClX5PHDaVbOoD5LKjUP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ryanClearup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ryanClearup" />
+      <module name="Classes" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ryanClearup" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c99b33ed-8169-419f-ab00-d9718c8e7496" name="Default Changelist" comment="" />
+      <created>1594087217946</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594087217946</updated>
+    </task>
+    <servers />
+  </component>
+</project>
