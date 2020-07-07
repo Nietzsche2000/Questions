@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c99b33ed-8169-419f-ab00-d9718c8e7496" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SuperSub.java" afterDir="false" />
+    <list default="true" id="c99b33ed-8169-419f-ab00-d9718c8e7496" name="Default Changelist" comment="Super Sub problem. What does super reference to?">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Classes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Classes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/staticClasses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperSub.java" beforeDir="false" afterPath="$PROJECT_DIR$/SuperSub.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +85,14 @@
       <option name="presentableId" value="Default" />
       <updated>1594087217946</updated>
     </task>
+    <task id="LOCAL-00001" summary="Super Sub problem. What does super reference to?">
+      <created>1594104802895</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594104802895</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +106,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Super Sub problem. What does super reference to?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Super Sub problem. What does super reference to?" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="46" key="#Project_Structure" timestamp="1594102123249">
@@ -119,25 +129,25 @@
       <screen x="30" y="23" width="1410" height="877" />
     </state>
     <state x="523" y="226" key="FileChooserDialogImpl/30.23.1410.877@30.23.1410.877" timestamp="1594102173264" />
-    <state width="1398" height="256" key="GridCell.Tab.0.bottom" timestamp="1594104461289">
+    <state width="1398" height="256" key="GridCell.Tab.0.bottom" timestamp="1594105132065">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1594104461289" />
+    <state width="1398" height="256" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1594105132065" />
     <state width="1368" height="280" key="GridCell.Tab.0.bottom/30.23.1410.877@30.23.1410.877" timestamp="1594102508488" />
-    <state width="1398" height="256" key="GridCell.Tab.0.center" timestamp="1594104461288">
+    <state width="1398" height="256" key="GridCell.Tab.0.center" timestamp="1594105132064">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1594104461288" />
+    <state width="1398" height="256" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1594105132064" />
     <state width="1368" height="280" key="GridCell.Tab.0.center/30.23.1410.877@30.23.1410.877" timestamp="1594102508487" />
-    <state width="1398" height="256" key="GridCell.Tab.0.left" timestamp="1594104461288">
+    <state width="1398" height="256" key="GridCell.Tab.0.left" timestamp="1594105132064">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1594104461288" />
+    <state width="1398" height="256" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1594105132064" />
     <state width="1368" height="280" key="GridCell.Tab.0.left/30.23.1410.877@30.23.1410.877" timestamp="1594102508487" />
-    <state width="1398" height="256" key="GridCell.Tab.0.right" timestamp="1594104461289">
+    <state width="1398" height="256" key="GridCell.Tab.0.right" timestamp="1594105132064">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1594104461289" />
+    <state width="1398" height="256" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1594105132064" />
     <state width="1368" height="280" key="GridCell.Tab.0.right/30.23.1410.877@30.23.1410.877" timestamp="1594102508488" />
     <state width="1398" height="226" key="GridCell.Tab.1.bottom" timestamp="1594104237331">
       <screen x="0" y="0" width="1440" height="900" />
@@ -163,6 +173,14 @@
       <screen x="30" y="23" width="1410" height="877" />
     </state>
     <state x="236" y="63" key="SettingsEditor/30.23.1410.877@30.23.1410.877" timestamp="1594102186168" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1594105011964">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1594105011964" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1594104824485">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1594104824485" />
     <state x="436" y="97" width="598" height="735" key="find.popup" timestamp="1594102174526">
       <screen x="30" y="23" width="1410" height="877" />
     </state>
@@ -177,7 +195,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/SuperSub.java</url>
-          <line>38</line>
+          <line>45</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

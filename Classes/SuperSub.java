@@ -7,8 +7,15 @@ public class SuperSub {
 
         }
 
+        public void method1(){
+            System.out.println("I am a method of sub class.");
+//            System.out.println(super.x);
+//            method();
+        }
+
         public void method(){
             System.out.println("I am a method of super class.");
+            System.out.println(this.getClass());
             System.out.println(this.x);
         }
 
@@ -27,10 +34,10 @@ public class SuperSub {
             System.out.println("I am in method of super class which takes in superclass. ");
         }
 
-        public void method(){
+        public void method1(){
             System.out.println("I am a method of sub class.");
-            System.out.println(super.x);
-            method();
+//            System.out.println(super.x);
+//            method();
         }
     }
 
