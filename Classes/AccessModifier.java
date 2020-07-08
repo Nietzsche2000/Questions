@@ -1,7 +1,12 @@
 public class AccessModifier {
 
     public static class A {
-        private int x = 5;
+        private int x;
+
+        public A() {
+            x = 100;
+            this.method();
+        }
 
         public void method() {
             System.out.println("A");
@@ -13,9 +18,11 @@ public class AccessModifier {
     public static class B extends A {
 
         public B() {
+            super();
             System.out.println(super.x);
             super.x = 10;
             System.out.println(super.x);
+            super.method();
         }
 
         public void Test() {
@@ -31,8 +38,8 @@ public class AccessModifier {
 //        }
 
         public static void main(String[] args) {
-            B b = new B();
-            b.Test();
+            B b = new B(); //--> B 100 10 A
+//            b.Test();
 //            System.out.println(b.x);
 //            b.method();
         }
