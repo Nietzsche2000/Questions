@@ -1,7 +1,9 @@
 public class SuperSub {
 
+    static int x = 10;
+
     public static class SuperClass{
-        int x = 10;
+
 
         public SuperClass(){
 
@@ -13,10 +15,22 @@ public class SuperSub {
 
         public void method(){
             System.out.println("I am a method of super class.");
+            String y = "I am in method of class SuperClass";
 //            this.method1();
 //            method1();
 //            System.out.println(this.x);
-            this.method(this);
+            class A {
+                int r = 10000000;
+                void method(){
+                    System.out.println(this.r);
+                    System.out.println(y);
+                    System.out.println(x);
+                }
+            }
+
+            A a = new A();
+            a.method();
+            method(this);
         }
 
         public void method(SuperClass a){
