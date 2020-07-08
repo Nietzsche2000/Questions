@@ -19,9 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c99b33ed-8169-419f-ab00-d9718c8e7496" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SuperSub.java" afterDir="false" />
+    <list default="true" id="c99b33ed-8169-419f-ab00-d9718c8e7496" name="Default Changelist" comment="added more methods for dynamic method scope">
+      <change afterPath="$PROJECT_DIR$/AccessModifier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InheritanceHeirarchy$A.class" beforeDir="false" afterPath="$PROJECT_DIR$/InheritanceHeirarchy$A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InheritanceHeirarchy$B.class" beforeDir="false" afterPath="$PROJECT_DIR$/InheritanceHeirarchy$B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InheritanceHeirarchy$C.class" beforeDir="false" afterPath="$PROJECT_DIR$/InheritanceHeirarchy$C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InheritanceHeirarchy.class" beforeDir="false" afterPath="$PROJECT_DIR$/InheritanceHeirarchy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InheritanceHeirarchy.java" beforeDir="false" afterPath="$PROJECT_DIR$/InheritanceHeirarchy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +57,21 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.SuperSub">
+  <component name="RunManager" selected="Application.AccessModifier$B">
+    <configuration name="AccessModifier$B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AccessModifier$B" />
+      <module name="Classes" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hilfinger2017$C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hilfinger2017$C" />
+      <module name="Classes" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SuperSub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SuperSub" />
       <module name="Classes" />
@@ -69,6 +88,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AccessModifier$B" />
+        <item itemvalue="Application.Hilfinger2017$C" />
         <item itemvalue="Application.SuperSub" />
         <item itemvalue="Application.ryanClearup" />
       </list>
@@ -85,6 +106,35 @@
       <option name="presentableId" value="Default" />
       <updated>1594087217946</updated>
     </task>
+    <task id="LOCAL-00001" summary="Super Sub problem. What does super reference to?">
+      <created>1594104802895</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594104802895</updated>
+    </task>
+    <task id="LOCAL-00002" summary="committed changed">
+      <created>1594105209802</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594105209802</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added final changes with overridden methods.">
+      <created>1594105312122</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594105312122</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added more methods for dynamic method scope">
+      <created>1594106010877</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594106010877</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,6 +149,13 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Super Sub problem. What does super reference to?" />
+    <MESSAGE value="committed changed" />
+    <MESSAGE value="added final changes with overridden methods." />
+    <MESSAGE value="added more methods for dynamic method scope" />
+    <option name="LAST_COMMIT_MESSAGE" value="added more methods for dynamic method scope" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="223" y="46" key="#Project_Structure" timestamp="1594102123249">
       <screen x="30" y="23" width="1410" height="877" />
@@ -108,50 +165,67 @@
       <screen x="30" y="23" width="1410" height="877" />
     </state>
     <state x="199" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog/30.23.1410.877@30.23.1410.877" timestamp="1594102069523" />
-    <state x="922" y="156" key="#xdebugger.evaluate" timestamp="1594088408831">
-      <screen x="30" y="23" width="1410" height="877" />
+    <state x="912" y="81" key="#xdebugger.evaluate" timestamp="1594104133757">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="922" y="156" key="#xdebugger.evaluate/30.23.1410.877@30.23.1410.877" timestamp="1594088408831" />
+    <state x="912" y="81" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1594104133757" />
+    <state x="966" y="152" key="#xdebugger.evaluate/30.23.1410.877@30.23.1410.877" timestamp="1594102505294" />
     <state x="523" y="226" key="FileChooserDialogImpl" timestamp="1594102173264">
       <screen x="30" y="23" width="1410" height="877" />
     </state>
     <state x="523" y="226" key="FileChooserDialogImpl/30.23.1410.877@30.23.1410.877" timestamp="1594102173264" />
-    <state width="1368" height="283" key="GridCell.Tab.0.bottom" timestamp="1594088484667">
-      <screen x="30" y="23" width="1410" height="877" />
+    <state width="1398" height="226" key="GridCell.Tab.0.bottom" timestamp="1594143985098">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1368" height="283" key="GridCell.Tab.0.bottom/30.23.1410.877@30.23.1410.877" timestamp="1594088484667" />
-    <state width="1368" height="283" key="GridCell.Tab.0.center" timestamp="1594088484667">
-      <screen x="30" y="23" width="1410" height="877" />
+    <state width="1398" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1594143985098" />
+    <state width="1368" height="280" key="GridCell.Tab.0.bottom/30.23.1410.877@30.23.1410.877" timestamp="1594102508488" />
+    <state width="1398" height="226" key="GridCell.Tab.0.center" timestamp="1594143985097">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1368" height="283" key="GridCell.Tab.0.center/30.23.1410.877@30.23.1410.877" timestamp="1594088484667" />
-    <state width="1368" height="283" key="GridCell.Tab.0.left" timestamp="1594088484667">
-      <screen x="30" y="23" width="1410" height="877" />
+    <state width="1398" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1594143985097" />
+    <state width="1368" height="280" key="GridCell.Tab.0.center/30.23.1410.877@30.23.1410.877" timestamp="1594102508487" />
+    <state width="1398" height="226" key="GridCell.Tab.0.left" timestamp="1594143985097">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1368" height="283" key="GridCell.Tab.0.left/30.23.1410.877@30.23.1410.877" timestamp="1594088484667" />
-    <state width="1368" height="283" key="GridCell.Tab.0.right" timestamp="1594088484667">
-      <screen x="30" y="23" width="1410" height="877" />
+    <state width="1398" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1594143985097" />
+    <state width="1368" height="280" key="GridCell.Tab.0.left/30.23.1410.877@30.23.1410.877" timestamp="1594102508487" />
+    <state width="1398" height="226" key="GridCell.Tab.0.right" timestamp="1594143985098">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1368" height="283" key="GridCell.Tab.0.right/30.23.1410.877@30.23.1410.877" timestamp="1594088484667" />
-    <state width="1368" height="283" key="GridCell.Tab.1.bottom" timestamp="1594088484668">
-      <screen x="30" y="23" width="1410" height="877" />
+    <state width="1398" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1594143985098" />
+    <state width="1368" height="280" key="GridCell.Tab.0.right/30.23.1410.877@30.23.1410.877" timestamp="1594102508488" />
+    <state width="1398" height="226" key="GridCell.Tab.1.bottom" timestamp="1594143985099">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1368" height="283" key="GridCell.Tab.1.bottom/30.23.1410.877@30.23.1410.877" timestamp="1594088484668" />
-    <state width="1368" height="283" key="GridCell.Tab.1.center" timestamp="1594088484668">
-      <screen x="30" y="23" width="1410" height="877" />
+    <state width="1398" height="226" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1594143985099" />
+    <state width="1368" height="280" key="GridCell.Tab.1.bottom/30.23.1410.877@30.23.1410.877" timestamp="1594102506801" />
+    <state width="1398" height="226" key="GridCell.Tab.1.center" timestamp="1594143985099">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1368" height="283" key="GridCell.Tab.1.center/30.23.1410.877@30.23.1410.877" timestamp="1594088484668" />
-    <state width="1368" height="283" key="GridCell.Tab.1.left" timestamp="1594088484668">
-      <screen x="30" y="23" width="1410" height="877" />
+    <state width="1398" height="226" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1594143985099" />
+    <state width="1368" height="280" key="GridCell.Tab.1.center/30.23.1410.877@30.23.1410.877" timestamp="1594102506800" />
+    <state width="1398" height="226" key="GridCell.Tab.1.left" timestamp="1594143985098">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1368" height="283" key="GridCell.Tab.1.left/30.23.1410.877@30.23.1410.877" timestamp="1594088484668" />
-    <state width="1368" height="283" key="GridCell.Tab.1.right" timestamp="1594088484668">
-      <screen x="30" y="23" width="1410" height="877" />
+    <state width="1398" height="226" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1594143985098" />
+    <state width="1368" height="280" key="GridCell.Tab.1.left/30.23.1410.877@30.23.1410.877" timestamp="1594102506800" />
+    <state width="1398" height="226" key="GridCell.Tab.1.right" timestamp="1594143985099">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1368" height="283" key="GridCell.Tab.1.right/30.23.1410.877@30.23.1410.877" timestamp="1594088484668" />
+    <state width="1398" height="226" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1594143985099" />
+    <state width="1368" height="280" key="GridCell.Tab.1.right/30.23.1410.877@30.23.1410.877" timestamp="1594102506801" />
     <state x="236" y="63" key="SettingsEditor" timestamp="1594102186168">
       <screen x="30" y="23" width="1410" height="877" />
     </state>
     <state x="236" y="63" key="SettingsEditor/30.23.1410.877@30.23.1410.877" timestamp="1594102186168" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1594105011964">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1594105011964" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1594106016401">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1594106016401" />
     <state x="436" y="97" width="598" height="735" key="find.popup" timestamp="1594102174526">
       <screen x="30" y="23" width="1410" height="877" />
     </state>
@@ -160,5 +234,20 @@
       <screen x="30" y="23" width="1410" height="877" />
     </state>
     <state x="103" y="87" key="new project wizard/30.23.1410.877@30.23.1410.877" timestamp="1594101987633" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1594141514805">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1594141514805" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SuperSub.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

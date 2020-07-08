@@ -1,14 +1,16 @@
 public class InheritanceHeirarchy {
 
 	public static class A{
-		int x = 5;
+		static int x = 5;
 	}
 
 	public static class B extends A{
-		static int x = 10;
+		int x = 55;
+		// static int x = 10;
 	}
 
 	public static class C extends B{
+		// static int x = 1000;
 
 	}
 
