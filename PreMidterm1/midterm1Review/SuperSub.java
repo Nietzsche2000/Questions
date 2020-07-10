@@ -1,6 +1,9 @@
+import org.w3c.dom.ls.LSOutput;
+
 public class SuperSub {
 
     public static class A {
+        private int x = 6;
         void method1(B x){
             System.out.println("I am in class A, input of static type B");
             A a = new B();
@@ -9,6 +12,7 @@ public class SuperSub {
     }
 
     public static class B extends A {
+        int y = super.x; // just goes up the hierarchy and finds the right method.
         void method1(A x){
             System.out.println("I am in class B, input of static type A");
         }

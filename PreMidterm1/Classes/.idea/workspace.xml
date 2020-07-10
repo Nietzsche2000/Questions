@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c99b33ed-8169-419f-ab00-d9718c8e7496" name="Default Changelist" comment="added more methods for dynamic method scope" />
+    <list default="true" id="c99b33ed-8169-419f-ab00-d9718c8e7496" name="Default Changelist" comment="added more methods for dynamic method scope">
+      <change beforePath="$PROJECT_DIR$/../../Runtime/basicRuntime.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Runtime/basicRuntime.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +35,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1eL3o40SClX5PHDaVbOoD5LKjUP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
