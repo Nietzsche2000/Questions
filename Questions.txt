@@ -13,3 +13,6 @@
 
 --Ryan
 17. When there is a default method in an interface how does it look up if you call a method from it. Like in project 1? How does this work?
+
+--Ryan
+18. Example run code for fill in blank problems

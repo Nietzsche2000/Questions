@@ -1,0 +1,16 @@
+(1) Method lookup with static
+(2) Method lookup without static
+(3) Classes inside other classes (extends & literally just inside)
+(4) Coding Question:	
+	(a) Arrays
+	(b) iteration
+	(c) recursion
+	(d) SLList
+	(e) DLList
+	(f) AList
+	(g) 2d arrays
+(5) Casting
+(6) Polymorphism
+(7) Runtime
+(8) Git
+(9) static v. Non static inner classes
