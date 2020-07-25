@@ -1,0 +1,1 @@
+ DBTable<?> other = (DBTable<?>) o;
