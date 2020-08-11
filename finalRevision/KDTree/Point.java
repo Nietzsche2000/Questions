@@ -19,4 +19,12 @@ public class Point {
     public static double distanceTo(double x1, double y1, double x2, double y2) {
         return Math.sqrt(Math.pow(x1 - x2, 2) - Math.pow(y1 - y2, 2));
     }
+
+    public int comparatorX(Point o) {
+        return Double.compare(this.x, x);
+    }
+
+    public int comparatorY(Point o) {
+        return Double.compare(this.y, y);
+    }
 }
