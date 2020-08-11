@@ -45,15 +45,4 @@ public class Trie {
         }
         return false;
     }
-
-    public boolean containsConcise(String s) {
-        Node ptr = this.root;
-        for (int i = 0; i < s.length() - 1; i++) {
-            Character val = s.charAt(i);
-            if (!ptr.data.containsKey(val))
-                return false;
-            ptr = ptr.data.get(val);
-        }
-        return ptr.isEnd;
-    }
 }
