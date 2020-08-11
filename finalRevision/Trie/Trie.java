@@ -14,7 +14,6 @@ public class Trie {
 
         public void insert(Character c, boolean isEnd) {
             this.data.put(c, new Node());
-            this.isEnd = isEnd;
         }
     }
 
@@ -24,7 +23,7 @@ public class Trie {
         this.root = new Node();
     }
 
-    public void insert(String s) {
+    public void insertGarbage(String s) {
         Node ptr = this.root;
         for (int i = 0; i < s.length(); i++) {
             Character val = s.charAt(i);
@@ -35,7 +34,18 @@ public class Trie {
         }
     }
 
-    public boolean contains(String s) {
+    public void insert(String s) {
+        Node ptr = this.root;
+        for (int i = 0; i < s.length(); i++) {
+            Character val = s.charAt(i);
+            if (!ptr.data.containsKey(val))
+                ptr.insert(val, false);
+            ptr = ptr.data.get(val);
+        }
+        ptr.isEnd = true;
+    }
+
+    public boolean containsGarbage(String s) {
         Node ptr = this.root;
         for (int i = 0; i < s.length(); i++) {
             Character val = s.charAt(i);
@@ -46,6 +56,17 @@ public class Trie {
             ptr = ptr.data.get(val);
         }
         return false;
+    }
+
+    public boolean contains(String s) {
+        Node ptr = this.root;
+        for (int i = 0; i < s.length(); i++) {
+            Character val = s.charAt(i);
+            if (!ptr.data.containsKey(val))
+                return false;
+            ptr = ptr.data.get(val);
+        }
+        return ptr.isEnd;
     }
 
     public List<String> prefix(String pre) {
