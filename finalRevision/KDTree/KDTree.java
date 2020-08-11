@@ -86,7 +86,8 @@ public class KDTree {
     /* Helper for checking if viable points present on the bad side */
     private boolean isBadSideReallyGood(Node node, Point p, Node best, int level) {
         if (level % 2 == 0) {
-            return p.distanceTo()
+            return Double.compare(Math.abs(p.x - node.point.x), p.distanceTo(best.point)) < 0;
         }
+        return Double.compare(Math.abs(p.y - node.point.y), p.distanceTo(best.point)) < 0;
     }
 }
