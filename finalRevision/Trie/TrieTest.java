@@ -24,7 +24,22 @@ public class TrieTest {
 
         for (int i = 0; i < arr.length; i++) {
             assertTrue(t.contains((String) arr[i]));
+            assertFalse(t.contains((String) arr[i] + arr[i]));
         }
 
+    }
+
+    @Test
+    public void prefix() {
+        Trie t = new Trie();
+        t.insert("sad");
+        t.insert("sam");
+        t.insert("sap");
+        t.insert("salut");
+        t.insert("salad");
+        t.insert("serendipitous");
+        t.insert("killLaKill");
+        t.insert("soup");
+        System.out.println(t.prefix("sa"));
     }
 }
