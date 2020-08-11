@@ -21,10 +21,15 @@ public class Point {
     }
 
     public int comparatorX(Point o) {
-        return Double.compare(this.x, x);
+        return Double.compare(this.x, o.x);
     }
 
     public int comparatorY(Point o) {
-        return Double.compare(this.y, y);
+        return Double.compare(this.y, o.y);
+    }
+
+    @Override
+    public String toString() {
+        return String.format("(x : %s, y: %s)", this.x, this.y);
     }
 }

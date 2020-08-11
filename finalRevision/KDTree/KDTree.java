@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class KDTree {
 
     private class Node {
@@ -21,7 +23,9 @@ public class KDTree {
 
     private Node root;
 
-    public KDTree() {
+    public KDTree(Point[] points) {
+        for (Point p : points)
+            this.insert(p);
     }
 
     public void insert(Point p) {
@@ -93,4 +97,25 @@ public class KDTree {
         }
         return Double.compare(Math.abs(p.y - node.point.y), p.distanceTo(best.point)) < 0;
     }
+
+//    public KDTree(Point[] points) {
+//        root = balancedBuild(points, 0, 0, points.length);
+//    }
+//
+////    /* make a balanced KDTree */
+////    private Node balancedBuild(Point[] points, int level, int leftIndex, int rightIndex) {
+////        if (leftIndex == rightIndex)
+////            return null;
+////        if (level % 2 == 0) {
+////            Arrays.sort(points, (x, y) -> Double.compare(x.x, y.x));
+////        } else {
+////            Arrays.sort(points, (x, y) -> Double.compare(x.y, y.y));
+////        }
+////        System.out.println(Arrays.toString(points));
+////        int mid = (leftIndex + rightIndex) / 2;
+////        Node node = new Node(points[mid]);
+////        node.left = balancedBuild(points, level + 1, leftIndex, mid);
+////        node.right = balancedBuild(points, level + 1, mid + 1, rightIndex);
+////        return node;
+////    }
 }
