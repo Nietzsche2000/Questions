@@ -80,7 +80,10 @@ public class KDTree {
             }
         }
         best = nearest(goodSide, best, p, level + 1);
-
+        if (isBadSideReallyGood(node, p, best, level)) {
+            best = nearest(badSide, best, p, level + 1);
+        }
+        return best;
     }
 
     /* Helper for checking if viable points present on the bad side */
