@@ -23,7 +23,7 @@ public class Trie {
         this.root = new Node();
     }
 
-    public void insertGarbage(String s) {
+    public void insertGarbage(String s) { // abce --> e true, abcdg --> c false
         Node ptr = this.root;
         for (int i = 0; i < s.length(); i++) {
             Character val = s.charAt(i);
@@ -81,13 +81,12 @@ public class Trie {
         }
         if (node == null)
             return result;
-        if (node.isEnd && pre.length() == 0)
+        soFar = soFar + pre;
+        if (node.isEnd)
             result.addLast(soFar);
-        if (pre.length() == 0) {
-            for (Character c : node.data.keySet()) {
-                LinkedList<String> inn = this.prefix(node.data.get(c), "", c + soFar);
-                result.addAll(inn);
-            }
+        for (Character c : node.data.keySet()) {
+            String ch = String.valueOf(c);
+            result.addAll(prefix(node, ch, soFar));
         }
         return result;
     }

@@ -39,7 +39,8 @@ public class TrieTest {
         t.insert("salad");
         t.insert("serendipitous");
         t.insert("killLaKill");
+        t.insert("kil");
         t.insert("soup");
-        System.out.println(t.prefix("sa"));
+        System.out.println(t.prefix("s"));
     }
 }
