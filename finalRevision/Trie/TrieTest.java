@@ -10,6 +10,6 @@ public class TrieTest {
 
     @Test
     public void contains() {
-
+        Trie t = new Trie()
     }
 }
