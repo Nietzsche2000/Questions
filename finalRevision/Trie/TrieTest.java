@@ -41,6 +41,7 @@ public class TrieTest {
         t.insert("killLaKill");
         t.insert("kil");
         t.insert("soup");
-        System.out.println(t.prefix("s"));
+        System.out.println(t.prefix(""));
+        System.out.println(t.longestPrefix("sa"));
     }
 }

@@ -90,4 +90,25 @@ public class Trie {
         }
         return result;
     }
+
+    public String longestPrefix(String pre) {
+        return this.prefixLongest(this.root, pre, "");
+    }
+
+    /* helper */
+    private String prefixLongest(Node node, String pre, String result) {
+        for (int i = 0; i < pre.length(); i++) {
+            node = node.data.get(pre.charAt(i));
+        }
+        if (node == null)
+            return result;
+        result = pre;
+        for (Character c : node.data.keySet()) {
+            String ch = String.valueOf(c);
+            String n = pre + prefixLongest(node, ch, result);
+            if (n.length() > result.length())
+                result = n;
+        }
+        return result;
+    }
 }
