@@ -24,5 +24,19 @@ public class GraphTest {
 
     @Test
     public void dijkstra() {
+        Graph g1 = new Graph(7);
+        g1.addEdge(0, 1, 2);
+        g1.addEdge(0, 2, 1);
+        g1.addEdge(1, 2, 5);
+        g1.addEdge(1, 4, 3);
+        g1.addEdge(1, 3, 11);
+        g1.addEdge(2, 5, 15);
+        g1.addEdge(4, 6, 5);
+        g1.addEdge(4, 5, 4);
+        g1.addEdge(4, 1, 1);
+        g1.addEdge(6, 3, 1);
+        g1.addEdge(6, 5, 1);
+        g1.addEdge(3, 4, 2);
+        System.out.println(g1.dijkstra(0, 5));
     }
 }
