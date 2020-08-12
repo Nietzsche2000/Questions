@@ -2,7 +2,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /* Adj Lists based GRAPH ADT */
-public class Graph {
+public class Graph implements Iterable<Integer> {
 
     public class Edge {
         int from;
@@ -195,6 +195,11 @@ public class Graph {
         return L;
     }
 
+    @Override
+    public Iterator<Integer> iterator() {
+        return new TopologicalIterator();
+    }
+
     public class TopologicalIterator implements Iterator<Integer> {
 
         Stack<Integer> fringe; // fringe will only contain vertices of indegree zero;
@@ -203,6 +208,13 @@ public class Graph {
         public TopologicalIterator() {
             this.fringe = new Stack<>();
             this.mapper = new HashMap<>();
+            for (int i = 0; i < adjLists.length; i++) {
+                if (inDegree(i) != 0) {
+                    this.mapper.put(i, inDegree(i));
+                } else {
+                    this.fringe.push(i);
+                }
+            }
         }
 
         @Override
@@ -212,8 +224,34 @@ public class Graph {
 
         @Override
         public Integer next() {
-            return null;
+            int vertex = this.fringe.pop();
+            for (int neighbor : neighbors(vertex)) {
+                this.mapper.put(neighbor, this.mapper.get(neighbor) - 1);
+                if (this.mapper.get(neighbor) == 0) {
+                    this.fringe.push(neighbor);
+                }
+            }
+            return vertex;
         }
     }
+
+    private void generateG2() {
+        addEdge(0, 1, 0);
+        addEdge(0, 2, 0);
+        addEdge(0, 4, 0);
+        addEdge(1, 2, 0);
+        addEdge(2, 3, 0);
+        addEdge(4, 3, 0);
+    }
+
+    public static void main(String[] args) {
+        Graph g2 = new Graph(5);
+        g2.generateG2();
+        for (int i : g2) {
+            System.out.println(i);
+        }
+
+    }
+
 
 }
