@@ -39,4 +39,14 @@ public class GraphTest {
         g1.addEdge(3, 4, 2);
         System.out.println(g1.dijkstra(0, 5));
     }
+
+    @Test
+    public void astar() {
+        Graph g1 = new Graph(4);
+        g1.addEdge(0, 1, 2);
+        g1.addEdge(0, 2, 6);
+        g1.addEdge(1, 2, 0);
+        g1.addEdge(1, 3, 3);
+        System.out.println(g1.dijkstra(0, 2));
+    }
 }
