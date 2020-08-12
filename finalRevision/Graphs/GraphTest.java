@@ -21,4 +21,8 @@ public class GraphTest {
         System.out.println(G.bfsPath(6, 1));
 
     }
+
+    @Test
+    public void dijkstra() {
+    }
 }

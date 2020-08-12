@@ -253,5 +253,42 @@ public class Graph implements Iterable<Integer> {
 
     }
 
+    public List<Integer> dijkstra(int start, int stop) {
+        HashSet<Integer> marked = new HashSet<>();
+        LinkedList<Integer> L = new LinkedList<>();
+        HashMap<Integer, Edge> edgeTo = new HashMap<>();
+        HashMap<Integer, Integer> distTo = new HashMap<>();
+        PriorityQueue<Integer> fringe = new PriorityQueue<>((x, y) -> distTo.get(x) - distTo.get(y));
+        distTo.put(start, 0);
+        fringe.add(start);
+        while (!fringe.isEmpty()) {
+            int vertex = fringe.poll();
+            if (vertex == stop)
+                break;
+            if (marked.contains(vertex))
+                continue;
+            for (Edge e : adjLists[vertex]) {
+                if (!marked.contains(e.to)) {
+                    if (distTo.containsKey(e.to) && distTo.get(e.from) + e.weight < distTo.get(e.to)) {
+                        distTo.put(e.to, distTo.get(e.from) + e.weight);
+                    } else if (!distTo.containsKey(e.to)) {
+                        distTo.put(e.to, distTo.get(e.from) + e.weight);
+                    }
+                    edgeTo.put(e.to, e);
+                    fringe.add(e.to);
+                }
+            }
+            marked.add(vertex);
+        }
+        while (edgeTo.containsKey(stop)) {
+            L.addFirst(stop);
+            stop = edgeTo.get(stop).from;
+        }
+        if (start != stop)
+            return new LinkedList<>();
+        L.addFirst(start);
+        return L;
+    }
+
 
 }
