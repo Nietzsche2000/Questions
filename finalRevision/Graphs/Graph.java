@@ -271,11 +271,13 @@ public class Graph implements Iterable<Integer> {
                 if (!marked.contains(e.to)) {
                     if (distTo.containsKey(e.to) && distTo.get(e.from) + e.weight < distTo.get(e.to)) {
                         distTo.put(e.to, distTo.get(e.from) + e.weight);
+                        edgeTo.put(e.to, e);
+                        fringe.add(e.to);
                     } else if (!distTo.containsKey(e.to)) {
                         distTo.put(e.to, distTo.get(e.from) + e.weight);
+                        edgeTo.put(e.to, e);
+                        fringe.add(e.to);
                     }
-                    edgeTo.put(e.to, e);
-                    fringe.add(e.to);
                 }
             }
             marked.add(vertex);
