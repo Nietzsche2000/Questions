@@ -1,5 +1,7 @@
 import org.junit.Test;
 
+import java.util.Arrays;
+
 import static org.junit.Assert.*;
 
 public class GraphTest {
@@ -48,5 +50,21 @@ public class GraphTest {
         g1.addEdge(1, 2, 0);
         g1.addEdge(1, 3, 3);
         System.out.println(g1.dijkstra(0, 2));
+    }
+
+    @Test
+    public void prims() {
+        Graph g1 = new Graph(4);
+        g1.addUndirectedEdge(0, 1, 3);
+        g1.addUndirectedEdge(1, 2, 2);
+        g1.addUndirectedEdge(0, 2, 1);
+        g1.addUndirectedEdge(1, 3, 7);
+        g1.addUndirectedEdge(2, 3, 6);
+        g1.addUndirectedEdge(0, 3, 8);
+        Graph T = g1.prims(0);
+        Graph K = g1.kruskals();
+        System.out.println(Arrays.toString(T.adjLists));
+        System.out.println("-----------------------------");
+        System.out.println(Arrays.toString(K.adjLists));
     }
 }

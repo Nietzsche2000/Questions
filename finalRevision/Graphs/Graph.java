@@ -22,6 +22,10 @@ public class Graph implements Iterable<Integer> {
             Edge e = (Edge) o;
             return e.to == this.to && e.from == this.from;
         }
+
+        public String toString() {
+            return String.format("(from: %s, to: %s)", this.from, this.to);
+        }
     }
 
     LinkedList<Edge>[] adjLists;
@@ -335,5 +339,58 @@ public class Graph implements Iterable<Integer> {
         return L;
     }
 
+    public Graph prims(int start) {
+        Graph T = new Graph(vertexCount);
+        HashSet<Integer> marked = new HashSet<>();
+        LinkedList<Integer> L = new LinkedList<>();
+        HashMap<Integer, Edge> edgeTo = new HashMap<>();
+        HashMap<Integer, Integer> distTo = new HashMap<>();
+        PriorityQueue<Integer> fringe = new PriorityQueue<>((x, y) -> distTo.get(x) - distTo.get(y));
+        distTo.put(start, 0);
+        fringe.add(start);
+        while (!fringe.isEmpty()) {
+            int vertex = fringe.poll();
+            if (marked.contains(vertex))
+                continue;
+            for (Edge e : adjLists[vertex]) {
+                if (!marked.contains(e.to)) {
+                    if (distTo.containsKey(e.to) && e.weight < distTo.get(e.to)) {
+                        distTo.put(e.to, e.weight);
+                        edgeTo.put(e.to, e);
+                        fringe.add(e.to);
+                    } else if (!distTo.containsKey(e.to)) {
+                        distTo.put(e.to, e.weight);
+                        edgeTo.put(e.to, e);
+                        fringe.add(e.to);
+                    }
+                }
+            }
+            marked.add(vertex);
+        }
+        for (Edge e : edgeTo.values()) {
+            T.addUndirectedEdge(e.from, e.to, e.weight);
+        }
+        return T;
+    }
+
+    public Graph kruskals() {
+        Graph T = new Graph(vertexCount);
+        LinkedList<Edge> L = new LinkedList<>();
+        for (LinkedList<Edge> LL : adjLists) {
+            L.addAll(LL);
+        }
+        WeightedQUPC w = new WeightedQUPC(vertexCount);
+        L.sort((x, y) -> x.weight - y.weight);
+        Iterator<Edge> i = L.iterator();
+        while (i.hasNext()) {
+            Edge e = i.next();
+            if (w.isConnect(e.from, e.to)) {
+                continue;
+            }
+            w.union(e.from, e.to);
+            T.addUndirectedEdge(e.from, e.to, e.weight);
+        }
+        return T;
+    }
 
 }
